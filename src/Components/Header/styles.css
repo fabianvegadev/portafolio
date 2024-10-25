@@ -1,26 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&family=Syne:wght@400..800&display=swap');
-
-.navbar {
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 33px;
+    width: 100%;
+    min-width: 320px;
+    height: 48px;
+    padding: 16px 16px 0 32px;
 }
 
-.container-logo {
+.header--logo-container {
     display: flex;
     justify-content: start;
     align-items: center;
     height: 100%;
-    gap: 8px;
+    gap: 8rem;
 }
 
-.figure-logo {
-    height: 100%;
-    margin: 0;
-}
-
-.figure-logo > img {
+.header--logo-container img {
     height: 100%;
     object-fit: cover;
 }
@@ -35,14 +31,14 @@
 }
 
 .li-others {
-    padding: 0 24px 0 24px ;
+    padding: 0 24rem 0 24rem ;
 }
 
 .li-proyectos {
-    background-color: rgba(0, 0, 0, 0.4);
-    padding: 15px 36px ;
+    background-color: var(--bg-transparent-black);
+    padding: 15rem 36rem ;
     border-style: solid;
-    border-radius: 24px;
-    border-width: 2px;
-    border-color: #AF7927;
+    border-radius: 24rem;
+    border-width: 2rem;
+    border-color: var(--c-main);
 }

@@ -6,7 +6,7 @@ const Home = () => {
 
     return (
         <Layout>
-            <div className='home-container'>
+            {/* <div className='home-container'>
                 <div className='text-container'>
                     <h1>¡Hola! 👋<br/>Soy Fabian Velasquez</h1>
                     <h2>Desarrollador FullStack<br/>en constante evolución</h2>
@@ -21,7 +21,7 @@ const Home = () => {
                 <figure className='figure-photo'>
                     <img src={Foto} alt='Foto' />
                 </figure>
-            </div>
+            </div> */}
         </Layout>
     )
 }

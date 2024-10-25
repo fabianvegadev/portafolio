@@ -1,3 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&family=Syne:wght@400..800&display=swap');
+
 :root {
-    background-color: #1A1A1A;
+    --c-main: #AF7927;
+    --c-xxl-white: #FFFFFF;
+    --c-xl-white: #F9FAFB;
+    --c-l-white: #F4F4F6;
+    --c-m-white: #E5E6EB;
+    --c-s-white: #D3D5DA;
+    --c-xs-white: #9EA3AE;
+    --c-xs-black: #6C727F;
+    --c-s-black: #4D5461;
+    --c-m-black: #394150;
+    --c-l-black: #212936;
+    --c-xl-black: #161D21;
+    --c-xxl-black: #000000;
+    --bg-gray: #1A1A1A;
+    --bg-transparent-black: rgba(0, 0, 0, 0.4);
+    background-color: var(--bg-gray);
+}
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html {
+    font-size: 6.25%;
+    font-family: 'syne', serif;
 }

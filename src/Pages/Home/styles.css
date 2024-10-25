@@ -1,11 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&family=Syne:wght@400..800&display=swap');
-
 .home-container {
-    max-height: calc(100vh - 100px);
+    height: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family: "Syne", serif;
     font-optical-sizing: auto;
     font-weight: 1px;
     font-style: normal;
@@ -16,11 +13,15 @@
     width: 50%;
 }
 
-.text-container > h1 {
-    font-size: 48px;
+.text-container h1 {
+    font-size: 48rem;
 }
 
-.text-container > h2 {
+.text-container h2 {
+    color:#AF7927;
+}
+
+.text-container p {
     color:#AF7927;
 }
 

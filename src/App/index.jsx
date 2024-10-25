@@ -1,4 +1,4 @@
-import { Navbar } from '../Components/Navbar/Navbar';
+import { Header } from '../Components/Header';
 import { Home } from '../Pages/Home';
 import './styles.css'
 
@@ -6,7 +6,7 @@ const App = () => {
 
   return (
     <div id='app'>
-      <Navbar/>
+      <Header/>
       <Home/>
     </div>
   )
