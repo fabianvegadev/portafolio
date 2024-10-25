@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&family=Syne:wght@400..800&display=swap');
+
+.home-container {
+    max-height: calc(100vh - 100px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Syne", serif;
+    font-optical-sizing: auto;
+    font-weight: 1px;
+    font-style: normal;
+    color: #FFFFFF;
+}
+
+.text-container {
+    width: 50%;
+}
+
+.text-container > h1 {
+    font-size: 48px;
+}
+
+.text-container > h2 {
+    color:#AF7927;
+}
+
+.buttons-container {
+    display: flex;
+    align-items: start;
+    margin-top: 36px;
+    gap: 20px
+}
+
+.buttons-container > button {
+    color: #FFFFFF;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 15px 36px ;
+    border-style: solid;
+    border-radius: 24px;
+    border-width: 2px;
+    border-color: #AF7927;
+}
+
+.figure-photo {
+    width: 500px;
+    height: 500px;
+}
+
+.figure-photo > img {
+    width: 100%;
+    border-radius: 50%;
+}

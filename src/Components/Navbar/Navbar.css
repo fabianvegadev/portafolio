@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&family=Syne:wght@400..800&display=swap');
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 33px;
+}
+
+.container-logo {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 100%;
+    gap: 8px;
+}
+
+.figure-logo {
+    height: 100%;
+    margin: 0;
+}
+
+.figure-logo > img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.ul-navbar {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    font-family: 'Rubic', sans-serif;
+    font-size: x-small;
+    color: #E5E6EB;
+}
+
+.li-others {
+    padding: 0 24px 0 24px ;
+}
+
+.li-proyectos {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 15px 36px ;
+    border-style: solid;
+    border-radius: 24px;
+    border-width: 2px;
+    border-color: #AF7927;
+}
