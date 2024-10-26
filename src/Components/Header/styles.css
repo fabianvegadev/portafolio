@@ -1,9 +1,13 @@
 header {
+    position: fixed;
+    top: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    min-width: 320px;
+    min-width: 320rem;
+    max-width: 1200rem;
+    margin: 0 auto;
     height: 60px;
     padding: 16px 16px 0 32px;
 }

@@ -1,6 +1,7 @@
 #app {
+    position: relative;
     width: 100%;
-    min-width: 345rem;
+    min-width: 320rem;
     max-width: 1200rem;
     margin: 0 auto;
 }

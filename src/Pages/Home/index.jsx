@@ -16,9 +16,9 @@ const Home = () => {
                     <p>
                         Apasionado por el desarrollo Frontend y el aprendizaje continuo. Mi experiencia en pruebas automatizadas y mi enfoque en proyectos web full-stack me preparan para resolver problemas y aportar valor en cada desafío.
                     </p>
-                    <div className='home-buttons-container'>
-                        <button>Explora mis proyectos</button>
-                    </div>
+                </div>
+                <div className='home-buttons-container'>
+                    <button>Explora mis proyectos</button>
                 </div>
             </section>
         </Layout>

@@ -1,16 +1,15 @@
 .home-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    min-height: calc(100vh - 60rem);
+    min-height: 100vh;
     color: #FFFFFF;
 }
 
 .photoContainer {
-    width: 200rem;
-    height: 200rem;
-    margin-bottom: 8px;
+    margin-top: 16rem;
+    width: 280rem;
+    height: 280rem;
 }
 
 .photoContainer > img {
@@ -22,12 +21,12 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    gap: 10rem;
     width: 98%;
 }
 
 .home-text-container h1 {
-    font-size: 28rem;
+    font-size: 30rem;
+    margin-bottom: 32px;
 }
 
 .home-text-container h2 {
@@ -42,6 +41,7 @@
     font-size: 16rem;
     font-family: var(--f-rubik);
     color: var(--c-xxl-whithe);
+    margin-bottom: 48rem;
 }
 
 .home-buttons-container > button {
