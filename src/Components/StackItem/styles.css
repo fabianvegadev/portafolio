@@ -1,0 +1,33 @@
+.stack-container-item {
+    margin: 0 auto;
+}
+
+.stack-icon {
+    width: 100rem;
+    height: 100rem;
+    margin: 0 auto;
+    font-size: 100rem;
+    color: var(--c-gray);
+}
+
+.stack-container-item h2 {
+    font-size: 28rem;
+    color: var(--c-xxl-white)
+}
+
+.stack-logos-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem 24rem;
+    font-size: 36rem;
+    width: 100%;
+    max-width: 200rem;
+    height: 20%;
+}
+
+.stack-logos-container img {
+    width: 36rem;
+    height: 36rem;
+}

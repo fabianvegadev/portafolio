@@ -1,12 +1,12 @@
 import { Layout } from '../../Components/Layout';
-import Foto from '../../assets/logo1.png'
+import Foto from '../../assets/foto.png'
 import './styles.css'
 
 const Home = () => {
 
     return (
         <Layout>
-            <section className='home-container'>
+            <div className='home-container'>
                 <figure className='photoContainer'>
                     <img src={Foto} alt='Foto' />
                 </figure>
@@ -20,7 +20,7 @@ const Home = () => {
                 <div className='home-buttons-container'>
                     <button>Explora mis proyectos</button>
                 </div>
-            </section>
+            </div>
         </Layout>
     )
 }

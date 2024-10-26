@@ -3,13 +3,13 @@
 
 :root {
     --c-gold: #AF7927;
-    --c-gray: #1A1A1A;
+    --c-black: #1A1A1A;
+    --c-gray: #9EA3AE;
     --c-xxl-white: #FFFFFF;
     --c-xl-white: #F9FAFB;
     --c-l-white: #F4F4F6;
     --c-m-white: #E5E6EB;
     --c-s-white: #D3D5DA;
-    --c-xs-white: #9EA3AE;
     --c-xs-black: #6C727F;
     --c-s-black: #4D5461;
     --c-m-black: #394150;
@@ -18,7 +18,7 @@
     --c-xxl-black: #000000;
     --bg-transparent-black: rgba(0, 0, 0, 0.4);
     --f-rubik: 'Rubik', serif;
-    background: linear-gradient(30deg, var(--c-gray) 50%, var(--c-gold) 450%);
+    background: linear-gradient(30deg, var(--c-black) 50%, var(--c-gold) 450%);
 }
 * {
     box-sizing: border-box;

@@ -3,9 +3,9 @@ import './styles.css'
 /* eslint-disable react/prop-types */
 const Layout = ({children}) => {
     return (
-        <main className='layout'>
+        <section className='layout'>
             {children}
-        </main>
+        </section>
     )
 }
 
