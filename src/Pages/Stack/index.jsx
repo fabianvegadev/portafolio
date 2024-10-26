@@ -14,7 +14,7 @@ const Stack = () => {
     return (
         <Layout>
             <section className='stack-container'>
-                <div>
+                <div className='stack-container-item'>
                     <FaCode className='stack-icons'/>
                     <h2>Frontend</h2>
                     <div className='stack-logos-container'>
@@ -25,7 +25,7 @@ const Stack = () => {
                         <SiTailwindcss color='#06B6D4'/>
                     </div>
                 </div>
-                <div>
+                <div className='stack-container-item'>
                     <FaServer className='stack-icons'/>
                     <h2>Backend</h2>
                     <div className='stack-logos-container'>
@@ -37,7 +37,7 @@ const Stack = () => {
                         <img src={mysql} alt='MySQL' />
                     </div>
                 </div>
-                <div>
+                <div className='stack-container-item'>
                     <FaBug className='stack-icons'/>
                     <h2>Testing</h2>
                     <div className='stack-logos-container'>
@@ -45,7 +45,7 @@ const Stack = () => {
                         <SiCucumber color='#23D96C'/>
                     </div>
                 </div>
-                <div>
+                <div className='stack-container-item'>
                     <FaTools className='stack-icons'/>
                     <h2>Herramientas</h2>
                     <div className='stack-logos-container'>

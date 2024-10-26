@@ -9,12 +9,12 @@
 }
 
 .stack-container div {
-    margin-bottom: 32rem;
+    margin-bottom: 28rem;
 }
 
 .stack-icons {
-    margin: 0 120rem;
-    font-size: 120rem;
+    margin: 0 90rem;
+    font-size: 100rem;
     color: var(--c-xs-white);
 }
 
@@ -29,14 +29,14 @@
     justify-content: center;
     align-items: center;
     gap: 16rem 32rem;
-    font-size: 40rem;
-    margin: 8rem auto;
+    font-size: 36rem;
+    margin: 0 auto;
     width: 100%;
     max-width: 200rem;
     height: 33%;
 }
 
 .stack-logos-container img {
-    width: 40rem;
-    height: 40rem;
+    width: 36rem;
+    height: 36rem;
 }
