@@ -8,14 +8,16 @@ const Stack = () => {
     const context = useContext(MostroDevContext)
 
     return (
-        <Layout className='section-stack'>
-            {context.stackItems.map((item, index) => (
-                <StackItem
-                    key={index}
-                    title={item.title}
-                    icon={item.icon}
-                    logos={item.logos}/>
-            ))}
+        <Layout>
+            <div className='section-stack'>
+                {context.stackItems.map((item, index) => (
+                    <StackItem
+                        key={index}
+                        title={item.title}
+                        icon={item.icon}
+                        logos={item.logos}/>
+                ))}
+            </div>
         </Layout>
     )
 }

@@ -1,6 +1,9 @@
 .section-stack {
     display: flex;
     flex-wrap: wrap;
-    width: 90%;
-    max-width: 800rem;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem 48rem;
+    width: 80%;
+    max-width: 600rem;
 }

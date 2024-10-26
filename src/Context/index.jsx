@@ -1,6 +1,6 @@
 import { createContext} from 'react';
-import { FaCode, FaDatabase } from 'react-icons/fa';
-import { SiHtml5, SiCss3, SiJavascript, SiReact, SiTailwindcss} from "react-icons/si";
+import { FaCode, FaServer, FaBug, FaTools } from 'react-icons/fa';
+import { SiHtml5, SiCss3, SiJavascript, SiReact, SiTailwindcss, SiSelenium, SiCucumber, SiVisualstudiocode, SiGit, SiGithub, SiAzuredevops, SiPostman } from "react-icons/si";
 import java from '../assets/java.svg'
 import python from '../assets/python.svg'
 import flask from '../assets/flask.svg'
@@ -26,7 +26,7 @@ const MostroDevProvider = ({children}) => {
         },
         {
             title: 'Backend',
-            icon: <FaDatabase/>, 
+            icon: <FaServer/>, 
             logos: [
                 <img key='java' src={java} alt='java'/>, 
                 <img key='python' src={python} alt='Python'/>, 
@@ -34,6 +34,25 @@ const MostroDevProvider = ({children}) => {
                 <img key='linux' src={linux} alt='Linux' />,
                 <img key='postgresql' src={postgresql} alt='PostgresSQL'/>, 
                 <img key='mysql' src={mysql} alt='MySQL'/>
+            ]        
+        },
+        {
+            title: 'Testing',
+            icon: <FaBug/>, 
+            logos: [
+                <SiSelenium key='selenium' color='#00D900'/>,
+                <SiCucumber key='cucumber' color='#23D96C'/>
+            ]        
+        },
+        {
+            title: 'Tools',
+            icon: <FaTools/>, 
+            logos: [
+                <SiGit key='git' color='#DE4C36'/>,
+                <SiGithub key='github' color='#FFFFFF'/>,
+                <SiAzuredevops key='azuredevops' color='#0078D4'/>,
+                <SiVisualstudiocode key='vsc' color='#3C99D4'/>,
+                <SiPostman key='postman' color='#FF6C37'/>,
             ]        
         },
     ];
