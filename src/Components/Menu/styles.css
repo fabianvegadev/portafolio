@@ -1,0 +1,21 @@
+.ul-navbar {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    font-family: 'Rubic', sans-serif;
+    font-size: x-small;
+    color: #E5E6EB;
+}
+
+.li-others {
+    padding: 0 24rem 0 24rem ;
+}
+
+.li-proyectos {
+    background-color: var(--bg-transparent-black);
+    padding: 15rem 36rem ;
+    border-style: solid;
+    border-radius: 24rem;
+    border-width: 2rem;
+    border-color: var(--c-main);
+}

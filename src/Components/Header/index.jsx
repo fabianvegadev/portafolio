@@ -11,7 +11,7 @@ const Header = () => {
                 <img src={logo1} alt='Logo' />
                 <img src={logo2} alt='Logo' />
             </figure>
-            <FaBars style={{color: 'var(--c-xxl-white)'}} size={24}/>
+            <FaBars style={{color: 'var(--c-xxl-white)'}} size={32}/>
         </header>            
     )
 }
