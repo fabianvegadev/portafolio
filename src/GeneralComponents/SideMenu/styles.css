@@ -36,7 +36,7 @@
 }
 
 .animation {
-    animation: animacion-side-menu 0.4s ease-in forwards;
+    animation: animacion-side-menu 0.2s ease-in forwards;
 }
 
 @keyframes animacion-side-menu {
@@ -44,7 +44,7 @@
         width: 0%;
         color: transparent;
     }
-    50%{
+    80%{
         color: transparent;
     }
     100%{

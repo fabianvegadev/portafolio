@@ -1,10 +1,10 @@
 import { useContext } from 'react';
-import { MostroDevContext } from '../../Context';
-import { Layout } from '../../Components/Layout';
-import { StackItem } from '../../Components/StackItem';
+import { MostroDevContext } from '../../../../Context';
+import { Layout } from '../../../../GeneralComponents/Layout';
+import { StackItem } from './Components/StackItem';
 import './styles.css'
 
-const Stack = () => {
+const HomeStack = () => {
     const context = useContext(MostroDevContext)
 
     return (
@@ -22,4 +22,4 @@ const Stack = () => {
     )
 }
 
-export { Stack };
+export { HomeStack };

@@ -1,7 +1,6 @@
 import { MostroDevProvider } from '../Context';
-import { Header } from '../Components/Header';
+import { Header } from '../GeneralComponents/Header';
 import { Home } from '../Pages/Home';
-import { Stack } from '../Pages/Stack';
 import './styles.css'
 
 const App = () => {
@@ -12,7 +11,6 @@ const App = () => {
         <Header/>
         <main>
           <Home/>
-          <Stack/>        
         </main>
       </div>
     </MostroDevProvider>
