@@ -1,0 +1,31 @@
+.side-menu-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    align-content: center;
+    background-color: var(--c-s-white);
+    width: 100vw;
+    height: 100vh;
+    font-size: 32rem;
+    font-weight: bold;
+}
+
+.side-menu-icon-close {
+    position: absolute;
+    top: 16rem;
+    right: 16rem;
+    font-size: 48rem;
+}
+
+.side-menu-container ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;  
+    align-items: center;
+    list-style: none;
+    height: 70%;
+}
+
+.side-menu-container ul li:{
+    text-decoration:underline;
+}

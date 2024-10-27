@@ -1,4 +1,4 @@
-import { createContext} from 'react';
+import { createContext, useState} from 'react';
 import { FaCode, FaServer, FaBug, FaTools } from 'react-icons/fa';
 import { SiHtml5, SiCss3, SiJavascript, SiReact, SiTailwindcss, SiSelenium, SiCucumber, SiVisualstudiocode, SiGit, SiGithub, SiAzuredevops, SiPostman } from "react-icons/si";
 import java from '../assets/java.svg'
@@ -12,6 +12,7 @@ const MostroDevContext = createContext()
 
 // eslint-disable-next-line react/prop-types
 const MostroDevProvider = ({children}) => {
+    // Stack Items - Array de logos e iconos
     const stackItems = [
         {
             title: 'Frontend',
@@ -57,9 +58,22 @@ const MostroDevProvider = ({children}) => {
         },
     ];
 
+    // Side Menu - Open/Close
+    const [isOpenSideMenu, setIsOpenSideMenu] = useState(false) 
+    console.log (isOpenSideMenu)
+    const openSideMenu = () => {
+        setIsOpenSideMenu(true)
+        console.log(isOpenSideMenu)
+    }
+    const closeSideMenu = () => {
+        setIsOpenSideMenu(false)
+    }
     return (
         <MostroDevContext.Provider value={{
             stackItems,
+            isOpenSideMenu,
+            openSideMenu,
+            closeSideMenu
         }}>
         {children}
         </MostroDevContext.Provider>
