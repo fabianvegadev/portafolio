@@ -9,7 +9,7 @@ const SideMenu = () => {
     const handleSideMenu = () => {
         if (context.isOpenSideMenu) {
             return (
-                <aside className={`side-menu-container`}>
+                <aside className= 'side-menu-container animation'>
                     <FaXmark
                         onClick={() => context.closeSideMenu()}
                         className='side-menu-icon-close'/>
