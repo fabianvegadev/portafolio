@@ -1,4 +1,5 @@
 import { createContext, useState} from 'react';
+import { useMediaQuery } from '../Hooks/UseMediaQuery';
 import { FaCode, FaServer, FaBug, FaTools } from 'react-icons/fa';
 import { SiHtml5, SiCss3, SiJavascript, SiReact, SiTailwindcss, SiSelenium, SiCucumber, SiVisualstudiocode, SiGit, SiGithub, SiAzuredevops, SiPostman } from "react-icons/si";
 import java from '../assets/java.svg'
@@ -58,18 +59,23 @@ const MostroDevProvider = ({children}) => {
         },
     ];
 
+    // Tamaños de pantallas para diseño responsivo
+    const isMovile = useMediaQuery('(max-width:800px)')
+    const isDesktop = useMediaQuery('(min-width:801px)')
+
+    // Window Width - Hook useWindowWith
     // Side Menu - Open/Close
     const [isOpenSideMenu, setIsOpenSideMenu] = useState(false) 
-    console.log (isOpenSideMenu)
     const openSideMenu = () => {
         setIsOpenSideMenu(true)
-        console.log(isOpenSideMenu)
     }
     const closeSideMenu = () => {
         setIsOpenSideMenu(false)
     }
     return (
         <MostroDevContext.Provider value={{
+            isMovile,
+            isDesktop,
             stackItems,
             isOpenSideMenu,
             openSideMenu,

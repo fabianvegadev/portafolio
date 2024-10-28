@@ -1,18 +1,22 @@
+import { BrowserRouter } from 'react-router-dom'
 import { MostroDevProvider } from '../Context';
 import { Header } from '../GeneralComponents/Header';
-import { Home } from '../Pages/Home';
+import { Routes } from '../Routes';
 import './styles.css'
 
 const App = () => {
 
   return (
     <MostroDevProvider>
-      <div id='app'>
-        <Header/>
-        <main>
-          <Home/>
-        </main>
-      </div>
+      <BrowserRouter>
+        <div id='app'>
+          <Header/>
+          <main>
+            <Routes/>
+          </main>
+        </div>
+      </BrowserRouter>
+      
     </MostroDevProvider>
     
   )

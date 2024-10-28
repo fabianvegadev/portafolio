@@ -1,8 +1,11 @@
 import { useContext } from "react";
 import { MostroDevContext } from "../../Context";
+import { paths } from "../../Routes/Paths";
+import { CustomLink } from "../CustomLink";
 import { SideMenu } from "../SideMenu";
+import { Navbar } from "../Navbar";
 import { FaBars } from "react-icons/fa";
-import logo1 from '../../assets/logo.png'
+import logo from '../../assets/logo.png';
 import './styles.css';
 
 const Header = () => {
@@ -10,14 +13,16 @@ const Header = () => {
 
     return (
         <header>
-            <SideMenu/>
-            <figure className='header--logo-container'>
-                <img src={logo1} alt='Logo' />
-            </figure>
-            <FaBars 
-                onClick={() => context.openSideMenu()}
-                size={32} 
-                style={{color: 'var(--c-xxl-white)'}}/>
+            {context.isMovile && <SideMenu/>}
+            <CustomLink to={paths.home} className='header-logo-container'>
+                <img src={logo} alt='Logo' />
+            </CustomLink>            
+            {(context.isDesktop || context.isTablet) && <Navbar/>}
+            {context.isMovile && 
+                <FaBars 
+                    onClick={() => context.openSideMenu()}
+                    size={32} 
+                    style={{color: 'var(--c-xxl-white)'}}/>}
         </header>            
     )
 }

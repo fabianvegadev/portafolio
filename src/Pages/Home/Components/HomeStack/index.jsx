@@ -9,7 +9,8 @@ const HomeStack = () => {
 
     return (
         <Layout>
-            <div className='section-stack'>
+            <h2>Stack</h2>
+            <div className='section-stack-items-container'>
                 {context.stackItems.map((item, index) => (
                     <StackItem
                         key={index}
@@ -18,6 +19,7 @@ const HomeStack = () => {
                         logos={item.logos}/>
                 ))}
             </div>
+            <button>Ver mas...</button>
         </Layout>
     )
 }

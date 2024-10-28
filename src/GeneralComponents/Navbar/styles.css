@@ -1,0 +1,20 @@
+.navbar-desktop {
+    font-family: var(--f-secondary);
+    color: var(--c-m-white);
+    font-size: 12rem;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;    
+}
+
+.navbar-desktop-link {
+    color: var(--c-s-white)
+}
+
+.navbar-projects-button {
+    font-size: 12rem;
+    padding: 12rem 20rem;
+}

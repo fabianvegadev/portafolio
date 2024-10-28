@@ -10,9 +10,9 @@ const StackItem = ({ title, icon, logos = [] }) => {
     };
 
     return (
-        <div className='stack-container-item'>
+        <div className='stack-item-container'>
             <figure className='stack-icon'>{icon}</figure>
-            <h2>{title}</h2>
+            <h3>{title}</h3>
             <div className='stack-logos-container'>
             {logos.map((logo, index) => (
                 <figure key={index}>{logo}</figure>                

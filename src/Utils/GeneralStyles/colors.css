@@ -1,0 +1,17 @@
+:root {
+    --c-gold: #AF7927;
+    --c-black: #1A1A1A;
+    --c-gray: #9EA3AE;
+    --c-xxl-white: #FFFFFF;
+    --c-xl-white: #F9FAFB;
+    --c-l-white: #F4F4F6;
+    --c-m-white: #E5E6EB;
+    --c-s-white: #D3D5DA;
+    --c-xxl-black: #000000;
+    --c-xl-black: #161D21;
+    --c-l-black: #212936;
+    --c-m-black: #394150;
+    --c-s-black: #4D5461;
+    --c-transparent-gold: rgba(175, 121, 39, 0.6);
+    --c-transparent-black: rgba(0, 0, 0, 0.4);
+}

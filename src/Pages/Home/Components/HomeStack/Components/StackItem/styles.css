@@ -1,22 +1,24 @@
-.stack-container-item {
+.stack-item-container {
     display: flex;
     flex-direction: column;
-    width: 200rem;
-    height: 250rem;
-    
+    justify-content: center;
+    align-items: center;
+    width: 180rem;
+    height: 200rem;
+    padding: 4rem auto ;
+    margin-bottom: 24rem;
+    border-style: solid;
+    border-radius: 24rem;
+    border-width: 2rem;
+    border-color: #AF7927;
 }
 
 .stack-icon {
-    width: 100rem;
-    height: 100rem;
+    width: 80rem;
+    height: 80rem;
     margin: 0 auto;
-    font-size: 100rem;
+    font-size: 80rem;
     color: var(--c-gray);
-}
-
-.stack-container-item h2 {
-    font-size: 28rem;
-    color: var(--c-xxl-white)
 }
 
 .stack-logos-container {
@@ -25,13 +27,13 @@
     justify-content: center;
     align-items: center;
     gap: 2rem 24rem;
-    font-size: 36rem;
+    font-size: 28rem;
     width: 100%;
     max-width: 200rem;
-    height: 20%;
+    height: 36%;
 }
 
 .stack-logos-container img {
-    width: 36rem;
-    height: 36rem;
+    width: 28rem;
+    height: 28rem;
 }
