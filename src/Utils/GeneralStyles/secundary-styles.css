@@ -1,0 +1,22 @@
+.secundary-paragraph {
+    width: 100%;
+    max-width: 400rem;
+    margin: 0 auto;
+    padding: 0 auto 12rem auto;
+    font-size: 15rem;
+    font-family: var(--f-secondary);
+    color: var(--c-s-white);
+}
+
+.button-secundary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4rem 8rem;
+    border-width: 1rem;
+}
+
+.button-secundary:active {
+    padding: 2rem 4rem;
+    margin: 2rem 4rem;
+}

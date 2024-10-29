@@ -1,0 +1,13 @@
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    min-height: 100vh;
+    gap: 20rem 40rem;
+}
+
+@media (max-width: 770px) {
+    .projects-container {
+        grid-template-columns: 100%;
+    }
+}

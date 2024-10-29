@@ -19,7 +19,6 @@ h2 {
     font-size: 30rem;
     margin-bottom: 28rem;
     color: var(--c-xxl-white);
-    text-decoration: underline;
 }
 h3 {
     font-size: 24rem;
@@ -39,7 +38,7 @@ p {
 }
 img {
     width: 100%;
-    border-radius: 8%;
+    border-radius: 16rem;
 }
 button {
     font-size: medium;
@@ -54,6 +53,9 @@ button {
     width: auto;
     transition: 0.2s;
 }
+button:hover {
+    background-color: var(--c-xl-black);
+}
 button:active {
     padding: 12rem 16rem;
     margin: 4rem 8rem;
@@ -65,5 +67,9 @@ li {
     cursor: pointer;
 }
 a {
+    color: var(--c-s-white);
     text-decoration: none;
+}
+u {
+    color: var(--c-s-white)
 }

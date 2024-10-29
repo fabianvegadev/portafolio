@@ -1,6 +1,7 @@
 header {
     position: fixed;
     top: 0;
+    z-index: 30;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -8,8 +9,8 @@ header {
     min-width: 320rem;
     max-width: 1200rem;
     margin: 0 auto;
-    height: 90rem;
-    padding: 16rem 16rem 0 32rem;
+    height: 60rem;
+    padding: 16rem 16rem 0rem 32rem;
 }
 
 .header-logo-container {

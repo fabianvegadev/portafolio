@@ -7,7 +7,7 @@ const CustomLink = ({ to, className, children}) => {
     CustomLink.propTypes = {
         to: PropTypes.string.isRequired,
         className: PropTypes.string,
-        children: PropTypes.element,
+        children: PropTypes.node,
     };
 
     return (

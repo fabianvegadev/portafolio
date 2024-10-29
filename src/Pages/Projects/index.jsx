@@ -1,13 +1,18 @@
 import { Layout } from "../../GeneralComponents/Layout";
 import { CardProject } from "./CardProject";
+import './styles.css';
 
 const Projects = () => {
 
     return (
         <Layout>
-            <strong>Página en construcción</strong>
-            <h1>Projectos principales</h1>
-            <CardProject/>
+            <h2>Proyectos principales</h2>
+            <div className="projects-container">
+                <CardProject/>
+                <CardProject/>
+                <CardProject/>
+                <CardProject/>
+            </div>
         </Layout>
     )
 }

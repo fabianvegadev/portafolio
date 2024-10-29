@@ -6,12 +6,13 @@
     background-color: var(--c-s-white);
     width: 100%;
     height: 100vh;
-    font-size: 32rem;
+    font-size: 18rem;
     font-weight: bold;
 }
 
 .side-menu-icon-close {
     position: absolute;
+    z-index: 30;
     top: 16rem;
     right: 16rem;
     font-size: 48rem;

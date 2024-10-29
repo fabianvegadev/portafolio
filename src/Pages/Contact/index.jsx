@@ -1,10 +1,11 @@
 import { Layout } from "../../GeneralComponents/Layout";
+import { UnderConstruction } from "../UnderConstruction";
 
 const Contact = () => {
 
     return (
         <Layout>
-            <strong>Página en construcción</strong>
+            <UnderConstruction/>
         </Layout>
     )
 }

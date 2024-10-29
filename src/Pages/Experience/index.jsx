@@ -1,10 +1,11 @@
 import { Layout } from "../../GeneralComponents/Layout";
+import { UnderConstruction } from "../UnderConstruction";
 
 const Experience = () => {
 
     return (
         <Layout>
-            <strong>Página en construcción</strong>
+            <UnderConstruction/>
         </Layout>
     )
 }
