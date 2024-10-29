@@ -146,10 +146,10 @@
     background-color: transparent; 
 }
 
-/* .card-project-container:hover .front {
+.card-project-container:hover .front {
     transform: rotateY(180deg);
 }
 
 .card-project-container:hover .back {
     transform: rotateY(360deg);
-} */
+}
