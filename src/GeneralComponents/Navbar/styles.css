@@ -13,8 +13,3 @@ ul {
 .navbar-desktop-link {
     color: var(--c-s-white)
 }
-
-.navbar-projects-button {
-    font-size: 12rem;
-    padding: 12rem 20rem;
-}

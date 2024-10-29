@@ -16,8 +16,12 @@ const HomeAboutMe = () => {
                     <h1>¡ Hola ! 👋 <br/> Soy Fabian Velasquez</h1>
                     <strong>Desarrollador FullStack<br/>en constante evolución</strong>
                     <p>Apasionado por el desarrollo Frontend y el aprendizaje continuo.</p>
-                    <CustomLink to={Paths.projects}>
-                        <button>Explora mis proyectos</button>
+                    <CustomLink to={Paths.projects} >
+                        <div className='about-me-button-container'>
+                            <button>
+                                Explora mis proyectos
+                            </button>
+                        </div>
                     </CustomLink>
                 </div>
             </div>

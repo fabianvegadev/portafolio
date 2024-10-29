@@ -35,10 +35,10 @@ const CardProject = () => {
                     </div>
                     <div className='buttons-container'>
                         <a href='https://github.com/fabianvegadev/mustard-habit.app'>
-                            <button className='button-secundary'><LuGithub size={15}/> Project</button>
+                            <button className='secundary-button'><LuGithub size={15}/> Project</button>
                         </a>
                         <a href='https://fabianvegadev.github.io/mustard-habit.app'>
-                            <button className='button-secundary'><LuLink size={15}/> Preview</button>
+                            <button className='secundary-button'><LuLink size={15}/> Preview</button>
                         </a>
                     </div>
                 </div>
@@ -57,10 +57,10 @@ const CardProject = () => {
                 <h3>Mustard Habit</h3>            
                     <div className='buttons-container'>
                         <a href='https://github.com/fabianvegadev/mustard-habit.app'>
-                            <button className='button-secundary'><LuGithub size={15}/> Project</button>
+                            <button className='secundary-button'><LuGithub size={15}/> Project</button>
                         </a>
                         <a href='https://fabianvegadev.github.io/mustard-habit.app'>
-                            <button className='button-secundary'><LuLink size={15}/> Preview</button>
+                            <button className='secundary-button'><LuLink size={15}/> Preview</button>
                         </a>
                     </div>
             </div>    

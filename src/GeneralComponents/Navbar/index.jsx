@@ -2,6 +2,7 @@
 // import { MostroDevContext } from '../../Context';
 import { CustomLink } from '../CustomLink';
 import { Paths } from '../../Routes/Paths';
+import '../../Utils/GeneralStyles/secundary-styles.css'
 import './styles.css'
 
 const Navbar = () => {
