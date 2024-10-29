@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { MostroDevContext } from "../../Context";
-import { Paths } from "../../Routes/Paths";
+import { paths } from "../../Routes/Paths";
 import { CustomLink } from "../CustomLink";
 import { SideMenu } from "../SideMenu";
 import { Navbar } from "../Navbar";
@@ -14,7 +14,7 @@ const Header = () => {
     return (
         <header>
             {context.isMovile && <SideMenu/>}
-            <CustomLink to={Paths.home} className='header-logo-container'>
+            <CustomLink to={paths.home} className='header-logo-container'>
                 <img src={logo} alt='Logo' />
             </CustomLink>            
             {(context.isDesktop || context.isTablet) && <Navbar/>}

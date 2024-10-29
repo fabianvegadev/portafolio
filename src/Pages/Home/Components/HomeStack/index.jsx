@@ -1,17 +1,17 @@
-import { useContext } from 'react';
-import { MostroDevContext } from '../../../../Context';
+import { stackItems } from '../../../../Data/StackItems';
+import { CustomLink } from '../../../../GeneralComponents/CustomLink';
 import { Layout } from '../../../../GeneralComponents/Layout';
+import { paths } from '../../../../Routes/Paths';
 import { StackItem } from './Components/StackItem';
-import './styles.css'
+import './styles.css';
 
 const HomeStack = () => {
-    const context = useContext(MostroDevContext)
 
     return (
         <Layout>
             <h2>Stack</h2>
             <div className='section-stack-items-container'>
-                {context.stackItems.map((item, index) => (
+                {stackItems.map((item, index) => (
                     <StackItem
                         key={index}
                         title={item.title}
@@ -19,7 +19,9 @@ const HomeStack = () => {
                         logos={item.logos}/>
                 ))}
             </div>
-            <button>Ver mas...</button>
+            <CustomLink to={paths.skills}>
+                <button>Ver mas...</button>
+            </CustomLink>
         </Layout>
     )
 }

@@ -1,43 +1,43 @@
 import { useContext, useState } from 'react';
 import { MostroDevContext } from '../../../Context';
+import PropTypes from 'prop-types';
 import { CustomLink } from '../../../GeneralComponents/CustomLink';
-import { Paths } from '../../../Routes/Paths';
-import mh from '../../../assets/mh.jpg';
+import { paths } from '../../../Routes/Paths';
 import { HiArrowUturnRight } from "react-icons/hi2";
 import { LuLink, LuGithub } from "react-icons/lu";
 import '../../../Utils/GeneralStyles/secundary-styles.css';
-import './styles.css'
+import './styles.css';
 
-const CardProject = () => {
+const CardProject = ({image, title, techs = [], description, linkGitHub, linkPreview}) => {
     const context = useContext(MostroDevContext)
     const [ isFlipped, setIsFlipped] = useState(false)
-
+    
     const handleDescriptionClick = () => {
         setIsFlipped(!isFlipped)
         console.log(isFlipped)
     }
-
+    
     return (
         <div className={`card-project-container ${isFlipped ? 'is-flipped' : ''}`.trim()}>
             <div className='face front'>
                 <figure className="card-project-image-container">
-                        <img src={mh} alt='mustard-habit'/>
+                        <img src={image} alt='mustard-habit'/>
                 </figure>
-                    <h3>Mustard Habit</h3>     
+                    <h3>{title}</h3>     
                     {context.isMovile && 
                         <u onClick={() => handleDescriptionClick()}
-                            className='card-project-description'>Descripción</u>}                
+                        className='card-project-description'>Descripción</u>}                
                 <div className="front-detail-container">
                     <div className="front-tech-container">
-                        <span>React.js</span>
-                        <span>HTML5</span>
-                        <span>CSS3</span>
+                        {techs.map((tech, index) => {
+                            <span key={index}>{tech}</span>
+                        })}
                     </div>
                     <div className='buttons-container'>
-                        <a href='https://github.com/fabianvegadev/mustard-habit.app'>
+                        <a href={linkGitHub}>
                             <button className='secundary-button'><LuGithub size={15}/> Project</button>
                         </a>
-                        <a href='https://fabianvegadev.github.io/mustard-habit.app'>
+                        <a href={linkPreview}>
                             <button className='secundary-button'><LuLink size={15}/> Preview</button>
                         </a>
                     </div>
@@ -45,21 +45,17 @@ const CardProject = () => {
             </div>
             <div className='face back'>
                 <div className='back-description'>
-                    <p className='secundary-paragraph'>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error voluptas expedita animi tenetur consectetur, exercitationem voluptate reiciendis maxime ratione corrupti adipisci est inventore eum, beatae iusto deleniti nulla sed aperiam!
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus tempore possimus molestias aperiam quisquam quod corrupti eos distinctio architecto. Quasi sit, dolor dolorum recusandae ipsum rem ratione beatae repellendus qui!
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus quibusdam sit recusandae neque reiciendis vitae voluptate omnis cupiditate praesentium aut at corrupti odio fuga maxime amet beatae nostrum, quos quisquam.
-                    </p>
+                    <p className='secundary-paragraph'>{description}</p>
                 </div> 
                 {context.isMovile && 
                     <HiArrowUturnRight onClick={() => handleDescriptionClick()} className='return-icon'/>}                
-                <CustomLink to={Paths.underConstruction} className='description-link-ver-mas'>Ver más...</CustomLink>               
-                <h3>Mustard Habit</h3>            
+                <CustomLink to={paths.underConstruction} className='description-link-ver-mas'>Ver más...</CustomLink>               
+                <h3>{title}</h3>            
                     <div className='buttons-container'>
-                        <a href='https://github.com/fabianvegadev/mustard-habit.app'>
+                        <a href={linkGitHub}>
                             <button className='secundary-button'><LuGithub size={15}/> Project</button>
                         </a>
-                        <a href='https://fabianvegadev.github.io/mustard-habit.app'>
+                        <a href={linkPreview}>
                             <button className='secundary-button'><LuLink size={15}/> Preview</button>
                         </a>
                     </div>
@@ -67,5 +63,14 @@ const CardProject = () => {
         </div>
     )
 }
+
+CardProject.propTypes = {
+    image: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired,
+    techs: PropTypes.arrayOf(PropTypes.string).isRequired,
+    description: PropTypes.string.isRequired,
+    linkGitHub: PropTypes.string.isRequired,
+    linkPreview: PropTypes.string.isRequired,
+};
 
 export { CardProject };

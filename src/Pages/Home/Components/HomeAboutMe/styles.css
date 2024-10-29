@@ -1,33 +1,45 @@
 .section-home-about-me-container {
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: 100%;
+    grid-template-rows: 40% 40%;
     justify-items: center;
+    align-items: start;
     min-height: 100vh;
 }
 
 .work-image-container {
-    margin-top: 32rem;
     width: 280rem;
     height: 280rem;
 }
 
-.about-me-button-container{
-    margin-top: 48rem;
+.text-container p {
+    margin-bottom: 30rem;
 }
 
 @media (min-width:851px) {
     .section-home-about-me-container {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        justify-items: center;
-        grid-template-areas: "image button" "description description";
+        grid-template-columns: 60% 40%;
+        grid-template-rows: 70%;
+        place-content: center;
+        padding-bottom: 100rem;
     }
 
     .work-image-container {
-        grid-area: image;
-        margin-top: 32rem;
-        width: 280rem;
-        height: 280rem;
+        grid-column: 2 / 3;
+    }
+
+    .text-container {
+        grid-area: 1 / 1 / 2 / 2;
+        display: grid;
+        justify-items: start;
+        align-content: space-around;
+        text-align: start;
+        height: 50vh;
+    }
+    
+    .about-me-button-container{
+        justify-self: center; 
     }
 }
 

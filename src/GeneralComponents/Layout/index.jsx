@@ -1,9 +1,13 @@
-import './styles.css'
+import PropTypes from 'prop-types';
+import './styles.css';
 
-/* eslint-disable react/prop-types */
-const Layout = ({children}) => {
+const Layout = ({children, className}) => {
+    Layout.propTypes = {
+        children: PropTypes.node,
+        className: PropTypes.string,
+    };
     return (
-        <section className='layout'>
+        <section className={`layout ${className}`}>
             {children}
         </section>
     )
