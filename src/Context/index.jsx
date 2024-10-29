@@ -60,8 +60,8 @@ const MostroDevProvider = ({children}) => {
     ];
 
     // Tamaños de pantallas para diseño responsivo
-    const isMovile = useMediaQuery('(max-width:800px)')
-    const isDesktop = useMediaQuery('(min-width:801px)')
+    const isMovile = useMediaQuery('(max-width:850px)')
+    const isDesktop = useMediaQuery('(min-width:851px)')
 
     // Window Width - Hook useWindowWith
     // Side Menu - Open/Close

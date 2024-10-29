@@ -18,7 +18,7 @@ const CardProject = () => {
     }
 
     return (
-        <div className={`card-project-container ${isFlipped ? 'is-flipped' : ''}`}>
+        <div className={`card-project-container ${isFlipped ? 'is-flipped' : ''}`.trim()}>
             <div className='face front'>
                 <figure className="card-project-image-container">
                         <img src={mh} alt='mustard-habit'/>

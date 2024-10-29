@@ -54,6 +54,7 @@
     bottom: 92rem;
     font-size: 16rem;
     cursor: pointer;
+    color: var(--c-xxl-white);
 }
 
 .return-icon {
@@ -127,6 +128,7 @@
     position: absolute;
     bottom: 92rem;
     font-size: 16rem;
+    color: var(--c-xxl-white);
 }
 
 .back h3 {
@@ -146,10 +148,14 @@
     background-color: transparent; 
 }
 
-.card-project-container:hover .front {
-    transform: rotateY(180deg);
-}
+@media (min-width:851px) {
 
-.card-project-container:hover .back {
-    transform: rotateY(360deg);
+    .card-project-container:hover .front {
+        transform: rotateY(180deg);
+    }
+
+    .card-project-container:hover .back {
+        transform: rotateY(360deg);
+    }
+
 }

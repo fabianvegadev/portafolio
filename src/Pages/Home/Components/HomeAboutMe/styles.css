@@ -1,7 +1,7 @@
 .section-home-about-me-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
     min-height: 100vh;
 }
 
@@ -13,5 +13,21 @@
 
 .about-me-button-container{
     margin-top: 48rem;
+}
+
+@media (min-width:851px) {
+    .section-home-about-me-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        grid-template-areas: "image button" "description description";
+    }
+
+    .work-image-container {
+        grid-area: image;
+        margin-top: 32rem;
+        width: 280rem;
+        height: 280rem;
+    }
 }
 
