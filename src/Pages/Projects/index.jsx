@@ -1,6 +1,6 @@
 import { primaryProjects } from "../../Data/PrimaryProjects";
-import { Layout } from "../../GeneralComponents/Layout";
-import { ProjectCard } from "./Components/ProjectCard";
+import { Layout } from "../../Components/Layout";
+import { ProjectCard } from "../../Components/ProjectCard";
 import './styles.css';
 
 const Projects = () => {

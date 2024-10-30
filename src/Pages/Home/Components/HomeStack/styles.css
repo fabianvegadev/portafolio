@@ -1,9 +1,0 @@
-.section-stack-items-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 8rem 48rem;
-    width: 80%;
-    max-width: 600rem;
-}

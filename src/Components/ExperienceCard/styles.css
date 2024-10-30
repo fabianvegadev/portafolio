@@ -1,12 +1,13 @@
 .experience-card {
     display: flex;
+    scroll-snap-align: center;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    min-width: 260rem;
+    height: 340rem;
     border-radius: var(--b-primary);
-    box-shadow: 0 2rem 5rem var(--c-s-white);
-    padding: 8rem 2rem;
-    width: 320rem;
-    height: 260rem;
+    box-shadow: 0 5px 10px var(--c-s-black);
+    padding: 8rem 8rem;
 }
 
 .experience-skills {

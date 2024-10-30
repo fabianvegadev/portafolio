@@ -1,0 +1,21 @@
+.scroll-button {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    color: white;
+    font-size: 24rem;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.scroll-button.left {
+    left: 14rem;
+}
+.scroll-button.right {
+    right: 14rem;
+}
+.scroll-button.left:active {
+    transform: translateX(-50%);
+}
+.scroll-button.right:active {
+    transform: translateX(50%);
+}

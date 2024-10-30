@@ -42,7 +42,9 @@ p {
 }
 img {
     width: 100%;
-    border-radius: 16rem;
+    height: 100%;
+    object-fit: cover;
+    border-radius: var(--b-secundary);
 }
 button {
     font-size: medium;
@@ -50,7 +52,7 @@ button {
     background-color: var(--c-transparent-black);
     padding: 16rem 24rem;
     border-style: solid;
-    border-radius: 24rem;
+    border-radius: var(--b-primary);
     border-width: 2rem;
     border-color: var(--c-gold);
     cursor: pointer;

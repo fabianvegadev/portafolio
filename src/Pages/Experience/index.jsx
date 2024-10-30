@@ -1,6 +1,6 @@
 import { experiences } from "../../Data/Experiences";
-import { Layout } from "../../GeneralComponents/Layout";
-import { ExperienceCard } from "./Components/ExperienceCard";
+import { Layout } from "../../Components/Layout";
+import { ExperienceCard } from "../../Components/ExperienceCard";
 import './styles.css';
 
 const Experience = () => (

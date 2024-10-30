@@ -12,7 +12,7 @@ header {
     height: 60rem;
     padding: 8rem 16rem 10rem 32rem;
     background-color: black;
-    border-radius: 0 0 14rem 14rem;
+    border-radius: 0 0 16rem 16rem;
 }
 
 .header-logo-container {
@@ -20,9 +20,4 @@ header {
     justify-content: start;
     align-items: center;
     height: 100%;
-}
-
-.header-logo-container img {
-    height: 100%;
-    object-fit: cover;
 }

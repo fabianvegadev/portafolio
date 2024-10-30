@@ -1,21 +1,19 @@
-.stack-item-container {
+.stack-item {
     display: flex;
+    scroll-snap-align: center;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 180rem;
-    height: 200rem;
-    padding: 4rem auto ;
-    margin-bottom: 24rem;
+    min-width: 260rem;
+    height: 260rem;
+    padding: 8rem;
     border-style: solid;
-    border-radius: 24rem;
+    border-radius: var(--b-primary);
     border-width: 2rem;
     border-color: #AF7927;
 }
 
 .stack-icon {
-    width: 80rem;
-    height: 80rem;
+    width: 100rem;
+    height: 100rem;
     margin: 0 auto;
     font-size: 80rem;
     color: var(--c-gray);
@@ -25,15 +23,15 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-content: center;
     align-items: center;
     gap: 2rem 24rem;
-    font-size: 28rem;
+    font-size: 48rem;
     width: 100%;
-    max-width: 200rem;
-    height: 36%;
+    height: 50%;
 }
 
 .stack-logos-container img {
-    width: 28rem;
-    height: 28rem;
+    width: 48rem;
+    height: 48rem;
 }

@@ -10,7 +10,7 @@ const StackItem = ({ title, icon, logos = [] }) => {
     };
 
     return (
-        <div className='stack-item-container'>
+        <div className='stack-item'>
             <figure className='stack-icon'>{icon}</figure>
             <h3>{title}</h3>
             <div className='stack-logos-container'>

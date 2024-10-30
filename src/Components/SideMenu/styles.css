@@ -6,7 +6,6 @@
     background-color: var(--c-s-white);
     width: 100%;
     height: 100vh;
-    font-size: 18rem;
     font-weight: bold;
 }
 
@@ -29,5 +28,6 @@
 
 .side-menu-li {
     color: var(--c-xxl-black);
+    font-size: 20rem;
 }
 

@@ -1,17 +1,23 @@
 .experience-cards-container {
-    display: grid;
-    grid-template-columns: 100%;
-    justify-items: center;
-    height: 80%;
-    gap: 20rem 40rem;
-    margin-bottom: 32px;
+    display: flex;
+    align-items: center;
+    gap: 48rem;
+    width: 80%;
+    max-width: 704rem;
+    padding: 8rem;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+    scroll-behavior: smooth;
+    transition: 2s;
 }
 
-@media (min-width:851px) {
-    .experience-cards-container {
-        grid-template-columns: 50% 50%;
-        justify-content: center;
-        align-content: center;
-        grid-auto-rows: min-content;
-    }
+.experience-cards-container::-webkit-scrollbar {
+    width: 0px;
+}
+.experience-cards-container::-webkit-scrollbar-track {
+    background-color: transparent; 
+}
+.experience-cards-container::-webkit-scrollbar-thumb {
+    background-color: transparent;
 }

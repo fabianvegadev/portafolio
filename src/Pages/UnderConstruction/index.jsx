@@ -1,4 +1,4 @@
-import { Layout } from "../../GeneralComponents/Layout";
+import { Layout } from "../../Components/Layout";
 import './styles.css';
 
 const UnderConstruction = () => {

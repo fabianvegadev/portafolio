@@ -1,9 +1,9 @@
-.project-cards-container {
+.stack-items-container {
     display: flex;
     align-items: center;
-    gap: 48rem;
+    gap: 12rem;
     width: 80%;
-    max-width: 894rem;
+    max-width: 852rem;
     padding: 8rem;
     overflow-x: scroll;
     overscroll-behavior-x: contain;
@@ -12,12 +12,12 @@
     transition: 2s;
 }
 
-.project-cards-container::-webkit-scrollbar {
+.stack-items-container::-webkit-scrollbar {
     width: 0px;
 }
-.project-cards-container::-webkit-scrollbar-track {
+.stack-items-container::-webkit-scrollbar-track {
     background-color: transparent; 
 }
-.project-cards-container::-webkit-scrollbar-thumb {
+.stack-items-container::-webkit-scrollbar-thumb {
     background-color: transparent;
 }

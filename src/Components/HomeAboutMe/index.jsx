@@ -1,7 +1,7 @@
-import { Layout } from '../../../../GeneralComponents/Layout';
-import { CustomLink } from '../../../../GeneralComponents/CustomLink';
-import { paths } from '../../../../Routes/Paths';
-import Foto from '../../../../assets/foto.png';
+import { Layout } from '../Layout';
+import { CustomLink } from '../CustomLink';
+import { paths } from '../../Routes/Paths';
+import Foto from '../../assets/foto.png';
 import './styles.css';
 
 const HomeAboutMe = () => {

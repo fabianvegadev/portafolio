@@ -1,7 +1,7 @@
 // ExperienceCard.jsx
 import PropTypes from 'prop-types';
-import { CustomLink } from '../../../../GeneralComponents/CustomLink';
-import { paths } from '../../../../Routes/Paths';
+import { CustomLink } from '../CustomLink';
+import { paths } from '../../Routes/Paths';
 import './styles.css';
 
 const ExperienceCard = ({ company, role, period, description, skills }) => {

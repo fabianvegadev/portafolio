@@ -1,11 +1,11 @@
 import { useContext, useState } from 'react';
-import { MostroDevContext } from '../../../../Context';
+import { MostroDevContext } from '../../Context';
 import PropTypes from 'prop-types';
-import { CustomLink } from '../../../../GeneralComponents/CustomLink';
-import { paths } from '../../../../Routes/Paths';
+import { CustomLink } from '../../Components/CustomLink';
+import { paths } from '../../Routes/Paths';
 import { HiArrowUturnRight } from "react-icons/hi2";
 import { LuLink, LuGithub } from "react-icons/lu";
-import '../../../../Utils/GeneralStyles/secundary-styles.css';
+import '../../Utils/GeneralStyles/secundary-styles.css';
 import './styles.css';
 
 const ProjectCard = ({image, title, techs, description, linkGitHub, linkPreview}) => {
@@ -14,7 +14,6 @@ const ProjectCard = ({image, title, techs, description, linkGitHub, linkPreview}
     
     const handleDescriptionClick = () => {
         setIsFlipped(!isFlipped)
-        console.log(isFlipped)
     }
     
     return (

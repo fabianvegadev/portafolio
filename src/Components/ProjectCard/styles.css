@@ -1,7 +1,8 @@
 .project-card-container {
     position: relative;
+    scroll-snap-align: center;
     text-align: center;
-    width: 280rem;
+    min-width: 260rem;
     height: 340rem;
 }
 
@@ -17,7 +18,7 @@
 .project-card-container .front {
     display: flex;
     justify-content: center;
-    border-radius: 24rem;
+    border-radius: var(--b-primary);
     box-shadow: 0 5px 10px var(--c-s-black);
     transform: rotateY(0deg);
 }
@@ -32,9 +33,6 @@
 .project-card-image-container img {
     position: absolute;
     left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
 }
 
 .front-detail-container {
@@ -81,28 +79,15 @@
     align-items: center;
     justify-content: space-around;
     width: 100%;
-    border-style: solid;
-    border-radius: 2rem;
-    border: 1rem;
-    border-color: var(--c-s-black);
+    border-radius: var(--b-primary);
     font-size: 16rem;
     color: var(--c-xxl-white);
-}
-
-.front-tech-container span {
-    border-style: solid;
-    border-radius: 4rem;
-    border-width: 1rem;
-    border-color: var(--c-s-white);
-    padding: 2rem 4rem;
-    color: var(--c-s-white);
 }
 
 .buttons-container {
     position: absolute;
     bottom: 16rem;
     width: 100%;
-
     display: flex;
     justify-content: space-around;
 }
@@ -110,7 +95,7 @@
 .project-card-container .back {
     display: flex;
     justify-content: center;
-    border-radius: 24rem;
+    border-radius: var(--b-primary);
     box-shadow: 0 5px 10px var(--c-s-black);
     transform: rotateY(180deg);
 }
