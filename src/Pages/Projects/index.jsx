@@ -1,6 +1,6 @@
 import { primaryProjects } from "../../Data/PrimaryProjects";
 import { Layout } from "../../GeneralComponents/Layout";
-import { CardProject } from "./CardProject";
+import { ProjectCard } from "./Components/ProjectCard";
 import './styles.css';
 
 const Projects = () => {
@@ -8,16 +8,9 @@ const Projects = () => {
     return (
         <Layout>
             <h2>Proyectos principales</h2>
-            <div className="projects-container">
+            <div className="project-cards-container">
                 {primaryProjects.map((project, index) => (
-                    <CardProject
-                        key={index}
-                        image={project.image}
-                        title={project.title}
-                        techs={project.techs}
-                        description={project.description}
-                        linkGitHub={project.linkGitHub}
-                        linkPreview={project.linkPreview}/>
+                    <ProjectCard key={index}{...project}/>
                 ))}                
             </div>
         </Layout>

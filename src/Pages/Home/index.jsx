@@ -1,7 +1,9 @@
 import { primaryProjects } from "../../Data/PrimaryProjects";
+import { experiences } from '../../Data/Experiences'
 import { HomeAboutMe } from "./Components/HomeAboutMe";
+import { ProjectCard } from "../Projects/Components/ProjectCard";
 import { HomeStack } from "./Components/HomeStack";
-import { CardProject } from "../Projects/CardProject";
+import { ExperienceCard } from "../Experience/Components/ExperienceCard";
 import { Layout } from "../../GeneralComponents/Layout";
 
 const Home = () => {
@@ -11,20 +13,22 @@ const Home = () => {
             <HomeAboutMe/>
             <Layout>
                 <h2>Proyectos principales</h2>
-                <div className="projects-container">
+                <div className="project-cards-container">
                     {primaryProjects.map((project, index) => (
-                        <CardProject
-                            key={index}
-                            image={project.image}
-                            title={project.title}
-                            techs={project.techs}
-                            description={project.description}
-                            linkGitHub={project.linkGitHub}
-                            linkPreview={project.linkPreview}/>
+                        <ProjectCard key={index} {...project}/>
+                    ))}
+                </div>
+                <button>Ver más...</button>
+            </Layout>
+            <HomeStack/>
+            <Layout>
+                <h2>Experiencia</h2>
+                <div className="experience-cards-container">
+                    {experiences.map((exp, index) => (
+                        <ExperienceCard key={index} {...exp}/>
                     ))}
                 </div>
             </Layout>
-            <HomeStack/>
         </>
     )
 }

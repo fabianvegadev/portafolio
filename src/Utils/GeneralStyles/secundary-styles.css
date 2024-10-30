@@ -4,7 +4,7 @@
     margin: 0 auto;
     padding: 0 auto 12rem auto;
     font-size: 15rem;
-    font-family: var(--f-secondary);
+    font-family: var(--f-secundary);
     color: var(--c-s-white);
 }
 
@@ -12,6 +12,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border-color: var(--c-s-white);
     padding: 4rem 8rem;
     border-width: 1rem;
 }

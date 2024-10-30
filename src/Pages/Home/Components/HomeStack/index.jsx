@@ -12,11 +12,7 @@ const HomeStack = () => {
             <h2>Stack</h2>
             <div className='section-stack-items-container'>
                 {stackItems.map((item, index) => (
-                    <StackItem
-                        key={index}
-                        title={item.title}
-                        icon={item.icon}
-                        logos={item.logos}/>
+                    <StackItem key={index} {...item}/>
                 ))}
             </div>
             <CustomLink to={paths.skills}>

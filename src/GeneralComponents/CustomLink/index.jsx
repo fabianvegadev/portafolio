@@ -13,7 +13,7 @@ const CustomLink = ({ to, className, children}) => {
     return (
         <NavLink 
             to={to} 
-            className={({ isActive}) => `${className} ${isActive ? 'active' : ''}`.trim()}>
+            className={({ isActive}) => `default ${className} ${isActive ? 'active' : ''}`.trim()}>
                 {children}
         </NavLink>
     )

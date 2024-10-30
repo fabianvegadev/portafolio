@@ -10,7 +10,9 @@ header {
     max-width: 1200rem;
     margin: 0 auto;
     height: 60rem;
-    padding: 16rem 16rem 0rem 32rem;
+    padding: 8rem 16rem 10rem 32rem;
+    background-color: black;
+    border-radius: 0 0 14rem 14rem;
 }
 
 .header-logo-container {

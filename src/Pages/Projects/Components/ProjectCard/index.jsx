@@ -1,14 +1,14 @@
 import { useContext, useState } from 'react';
-import { MostroDevContext } from '../../../Context';
+import { MostroDevContext } from '../../../../Context';
 import PropTypes from 'prop-types';
-import { CustomLink } from '../../../GeneralComponents/CustomLink';
-import { paths } from '../../../Routes/Paths';
+import { CustomLink } from '../../../../GeneralComponents/CustomLink';
+import { paths } from '../../../../Routes/Paths';
 import { HiArrowUturnRight } from "react-icons/hi2";
 import { LuLink, LuGithub } from "react-icons/lu";
-import '../../../Utils/GeneralStyles/secundary-styles.css';
+import '../../../../Utils/GeneralStyles/secundary-styles.css';
 import './styles.css';
 
-const CardProject = ({image, title, techs = [], description, linkGitHub, linkPreview}) => {
+const ProjectCard = ({image, title, techs, description, linkGitHub, linkPreview}) => {
     const context = useContext(MostroDevContext)
     const [ isFlipped, setIsFlipped] = useState(false)
     
@@ -18,21 +18,21 @@ const CardProject = ({image, title, techs = [], description, linkGitHub, linkPre
     }
     
     return (
-        <div className={`card-project-container ${isFlipped ? 'is-flipped' : ''}`.trim()}>
+        <div className={`project-card-container ${isFlipped ? 'is-flipped' : ''}`.trim()}>
             <div className='face front'>
-                <figure className="card-project-image-container">
+                <figure className="project-card-image-container">
                         <img src={image} alt='mustard-habit'/>
                 </figure>
                     <h3>{title}</h3>     
                     {context.isMovile && 
                         <u onClick={() => handleDescriptionClick()}
-                        className='card-project-description'>Descripción</u>}                
+                        className='project-card-description'>Descripción</u>}                
                 <div className="front-detail-container">
-                    <div className="front-tech-container">
-                        {techs.map((tech, index) => {
-                            <span key={index}>{tech}</span>
-                        })}
-                    </div>
+                    <ul className="front-tech-container">
+                        {techs.map((tech, index) => (
+                            <li key={index} className='skills'>{tech}</li>
+                        ))}
+                    </ul>
                     <div className='buttons-container'>
                         <a href={linkGitHub}>
                             <button className='secundary-button'><LuGithub size={15}/> Project</button>
@@ -49,7 +49,7 @@ const CardProject = ({image, title, techs = [], description, linkGitHub, linkPre
                 </div> 
                 {context.isMovile && 
                     <HiArrowUturnRight onClick={() => handleDescriptionClick()} className='return-icon'/>}                
-                <CustomLink to={paths.underConstruction} className='description-link-ver-mas'>Ver más...</CustomLink>               
+                <CustomLink to={paths.underConstruction} className='description-link-ver-mas'><u>Ver más...</u></CustomLink>               
                 <h3>{title}</h3>            
                     <div className='buttons-container'>
                         <a href={linkGitHub}>
@@ -64,7 +64,7 @@ const CardProject = ({image, title, techs = [], description, linkGitHub, linkPre
     )
 }
 
-CardProject.propTypes = {
+ProjectCard.propTypes = {
     image: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
     techs: PropTypes.arrayOf(PropTypes.string).isRequired,
@@ -73,4 +73,4 @@ CardProject.propTypes = {
     linkPreview: PropTypes.string.isRequired,
 };
 
-export { CardProject };
+export { ProjectCard };

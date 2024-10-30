@@ -24,6 +24,10 @@ h3 {
     font-size: 24rem;
     color:var(--c-xxl-white);
 }
+h4 {
+    font-size: 20rem;
+    color:var(--c-xxl-white);
+}
 strong {
     font-size: 24rem;
     color:var(--c-gold);
@@ -33,7 +37,7 @@ p {
     max-width: 600rem;
     margin: 0 auto;
     font-size: 18rem;
-    font-family: var(--f-secondary);
+    font-family: var(--f-secundary);
     color: var(--c-xxl-white);
 }
 img {
@@ -72,4 +76,13 @@ a {
 }
 u {
     color: var(--c-s-white)
+}
+.skills {
+    border-style: solid;
+    border-radius: 4rem;
+    border-width: 1rem;
+    border-color: var(--c-gold);
+    padding: 2rem 4rem;
+    color: var(--c-s-white);
+    font-size: 16rem;
 }
