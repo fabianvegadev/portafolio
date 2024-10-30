@@ -1,0 +1,75 @@
+.aboutme-page {
+    background-color: #000;
+    color: #f0f0f0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+.aboutme-container {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.aboutme-title {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.aboutme-description {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 600px;
+    margin: 0 auto 20px;
+}
+
+.download-button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.download-button:hover {
+    background-color: #45a049;
+}
+
+.skills-section, .interests-section {
+    margin: 20px auto;
+    text-align: center;
+    max-width: 600px;
+}
+
+.skills-section h2, .interests-section h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.skills-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.skills-list li {
+    font-size: 16px;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 5px;
+    color: #f0f0f0;
+}
+
+.interests-description {
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 0 auto;
+}

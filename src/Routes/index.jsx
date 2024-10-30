@@ -1,7 +1,7 @@
 import { useRoutes } from 'react-router-dom';
 import { paths } from './Paths';
 import { Home } from '../Pages/Home';
-import { AboutMe } from '../Pages/AboutMe/AboutMe';
+import { AboutMe } from '../Pages/AboutMe';
 import { Projects } from '../Pages/Projects';
 import { Experience } from '../Pages/Experience';
 import { Contact } from '../Pages/Contact';

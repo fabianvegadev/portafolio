@@ -15,7 +15,7 @@ const Navbar = () => {
                 </li>
                 <li>
                     <CustomLink to={paths.aboutMe} className='navbar-desktop-link'>
-                        SOBRE MI
+                        SOBRE MÍ
                     </CustomLink>                
                 </li>
                 <li>
