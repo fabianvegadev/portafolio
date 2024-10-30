@@ -13,7 +13,7 @@
 }
 
 .stack-items-container::-webkit-scrollbar {
-    width: 0px;
+    width: 0rem;
 }
 .stack-items-container::-webkit-scrollbar-track {
     background-color: transparent; 

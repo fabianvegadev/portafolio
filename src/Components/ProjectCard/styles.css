@@ -19,7 +19,7 @@
     display: flex;
     justify-content: center;
     border-radius: var(--b-primary);
-    box-shadow: 0 5px 10px var(--c-s-black);
+    box-shadow: 0 5rem 10rem var(--c-s-black);
     transform: rotateY(0deg);
 }
 
@@ -96,7 +96,7 @@
     display: flex;
     justify-content: center;
     border-radius: var(--b-primary);
-    box-shadow: 0 5px 10px var(--c-s-black);
+    box-shadow: 0 5rem 10rem var(--c-s-black);
     transform: rotateY(180deg);
 }
 
@@ -120,7 +120,7 @@
 }
 
 .back-description::-webkit-scrollbar {
-    width: 0px;    
+    width: 0rem;    
 }
     
 .back-description::-webkit-scrollbar-track {
@@ -131,7 +131,7 @@
     background-color: transparent; 
 }
 
-@media (min-width:851px) {
+@media (min-width:851rem) {
 
     .project-card-container:hover .front {
         transform: rotateY(180deg);

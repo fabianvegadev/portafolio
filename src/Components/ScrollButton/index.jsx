@@ -1,4 +1,4 @@
-// ScrollButton.js
+import PropTypes from 'prop-types';
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import './styles.css';
 
@@ -16,6 +16,11 @@ const ScrollButton = ({ direction, handleScroll }) => {
             )}
         </>
     );
+};
+
+ScrollButton.propTypes = {
+    direction: PropTypes.string.isRequired,
+    handleScroll: PropTypes.func.isRequired,
 };
 
 export { ScrollButton };

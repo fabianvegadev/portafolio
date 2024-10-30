@@ -8,7 +8,7 @@
     border-style: solid;
     border-radius: var(--b-primary);
     border-width: 2rem;
-    border-color: #AF7927;
+    border-color: var(--c-gold);
 }
 
 .stack-icon {

@@ -1,3 +1,20 @@
 .skill-chart {
-    margin-bottom: 10px;
+    width: 100rem;
+    height: 100rem;
+    margin-bottom: 10rem;
+}
+
+.skill-chart-background {
+    fill: none;
+    stroke: var(--c-s-white);
+    stroke-width: 10;
+}
+
+.skill-chart-progress {
+    fill: none;
+    stroke: var(--c-gold);
+    stroke-width: 10;
+    transform: rotate(-90deg);
+    transform-origin: 50% 50%;
+    transition: stroke-dashoffset 0.3s ease;
 }

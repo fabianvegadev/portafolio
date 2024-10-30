@@ -6,7 +6,7 @@
     min-width: 260rem;
     height: 340rem;
     border-radius: var(--b-primary);
-    box-shadow: 0 5px 10px var(--c-s-black);
+    box-shadow: 0 5rem 10rem var(--c-s-black);
     padding: 8rem 8rem;
 }
 

@@ -79,6 +79,11 @@ a {
 u {
     color: var(--c-s-white)
 }
+text {
+    font-size: 16rem;
+    fill: var(--c-s-white);
+    text-anchor: middle;    
+}
 .skills {
     border-style: solid;
     border-radius: 4rem;
