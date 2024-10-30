@@ -19,7 +19,7 @@ const SkillLevelChart = ({ level }) => {
 };
 
 SkillLevelChart.propTypes = {
-  level: PropTypes.number.isRequired,
+  level: PropTypes.string.isRequired,
 };
 
 export { SkillLevelChart };

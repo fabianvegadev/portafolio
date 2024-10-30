@@ -15,17 +15,6 @@ const AboutMe = () => {
                 </button>
             </div>
 
-            <div className='skills-section'>
-                <h2>Habilidades</h2>
-                <ul className='skills-list'>
-                    <li>JavaScript</li>
-                    <li>React</li>
-                    <li>HTML & CSS</li>
-                    <li>Node.js</li>
-                    <li>Git & GitHub</li>
-                </ul>
-            </div>
-
             <div className='interests-section'>
                 <h2>Intereses</h2>
                 <p className='interests-description'>
