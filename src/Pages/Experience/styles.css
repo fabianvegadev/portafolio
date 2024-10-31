@@ -1,9 +1,9 @@
 .experience-cards-container {
     display: flex;
     align-items: center;
-    gap: 48rem;
+    gap: 12rem;
     width: 80%;
-    max-width: 704rem;
+    max-width: 820rem;
     padding: 8rem;
     overflow-x: scroll;
     overscroll-behavior-x: contain;
@@ -13,11 +13,5 @@
 }
 
 .experience-cards-container::-webkit-scrollbar {
-    width: 0rem;
-}
-.experience-cards-container::-webkit-scrollbar-track {
-    background-color: transparent; 
-}
-.experience-cards-container::-webkit-scrollbar-thumb {
-    background-color: transparent;
+    display: none;
 }

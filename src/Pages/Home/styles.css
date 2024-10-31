@@ -1,9 +1,9 @@
-.stack-items-container {
+.home-stack-items-container,
+.home-project-cards-container {
     display: flex;
     align-items: center;
     gap: 12rem;
     width: 80%;
-    max-width: 852rem;
     padding: 8rem;
     overflow-x: scroll;
     overscroll-behavior-x: contain;
@@ -12,12 +12,15 @@
     transition: 2s;
 }
 
-.stack-items-container::-webkit-scrollbar {
-    width: 0rem;
+.home-stack-items-container {
+    max-width: 852rem;
 }
-.stack-items-container::-webkit-scrollbar-track {
-    background-color: transparent; 
+
+.home-project-cards-container {
+    max-width: 820rem;
 }
-.stack-items-container::-webkit-scrollbar-thumb {
-    background-color: transparent;
+
+.home-stack-items-container::-webkit-scrollbar,
+.home-project-cards-container::-webkit-scrollbar  {
+    display: none;
 }

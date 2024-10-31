@@ -18,16 +18,16 @@
 .project-card-container .front {
     display: flex;
     justify-content: center;
-    border-radius: var(--b-primary);
+    border-radius: var(--border-one);
+    background-color: var(--c-black-two);
     box-shadow: 0 5rem 10rem var(--c-s-black);
     transform: rotateY(0deg);
 }
 
 .front .project-card-image-container {
     position: absolute;
-    margin-top: 12rem;
-    width: 91%;
-    height: 50%;
+    width: 100%;
+    height: 55%;
 }
 
 .project-card-image-container img {
@@ -79,7 +79,7 @@
     align-items: center;
     justify-content: space-around;
     width: 100%;
-    border-radius: var(--b-primary);
+    border-radius: var(--border-one);
     font-size: 16rem;
     color: var(--c-xxl-white);
 }
@@ -95,7 +95,7 @@
 .project-card-container .back {
     display: flex;
     justify-content: center;
-    border-radius: var(--b-primary);
+    border-radius: var(--border-one);
     box-shadow: 0 5rem 10rem var(--c-s-black);
     transform: rotateY(180deg);
 }
@@ -120,18 +120,10 @@
 }
 
 .back-description::-webkit-scrollbar {
-    width: 0rem;    
-}
-    
-.back-description::-webkit-scrollbar-track {
-    background-color: transparent;  
-}
-    
-.back-description::-webkit-scrollbar-thumb {
-    background-color: transparent; 
+    display: none;    
 }
 
-@media (min-width:851rem) {
+@media (min-width:851px) {
 
     .project-card-container:hover .front {
         transform: rotateY(180deg);

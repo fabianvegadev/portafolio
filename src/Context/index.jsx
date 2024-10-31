@@ -8,7 +8,7 @@ const MostroDevProvider = ({children}) => {
     // Stack Items - Array de logos e iconos
     
     // Tamaños de pantallas para diseño responsivo
-    const isMovile = useMediaQuery('(max-width:850px)')
+    const isMobile = useMediaQuery('(max-width:850px)')
     const isDesktop = useMediaQuery('(min-width:851px)')
 
     // Window Width - Hook useWindowWith
@@ -22,7 +22,7 @@ const MostroDevProvider = ({children}) => {
     }
     return (
         <MostroDevContext.Provider value={{
-            isMovile,
+            isMobile,
             isDesktop,
             isOpenSideMenu,
             openSideMenu,

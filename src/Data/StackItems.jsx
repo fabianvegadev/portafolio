@@ -3,7 +3,7 @@ import { SiHtml5, SiCss3, SiJavascript, SiReact, SiTailwindcss, SiSelenium, SiCu
 import java from '../assets/java.svg';
 import python from '../assets/python.svg';
 import flask from '../assets/flask.svg';
-import linux from '../assets/linux.svg';
+import linux from '../assets/linux.png';
 import postgresql from '../assets/postgresql.svg';
 import mysql from '../assets/mysql.svg';
 

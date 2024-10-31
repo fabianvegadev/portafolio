@@ -13,12 +13,12 @@ const Header = () => {
 
     return (
         <header>
-            {context.isMovile && <SideMenu/>}
+            {context.isMobile && <SideMenu/>}
             <CustomLink to={paths.home} className='header-logo-container'>
                 <img src={logo} alt='Logo' />
             </CustomLink>            
             {(context.isDesktop || context.isTablet) && <Navbar/>}
-            {context.isMovile && 
+            {context.isMobile && 
                 <FaBars 
                     onClick={() => context.openSideMenu()}
                     size={32} 

@@ -39,7 +39,7 @@ const Home = () => {
                 {projectScrollState.showLeftButton && (
                     <ScrollButton direction="left" handleScroll={handleProjectScroll} />
                 )}
-                <div className="project-cards-container" ref={projectContainerRef}>
+                <div className='home-project-cards-container' ref={projectContainerRef}>
                     {primaryProjects.map((project, index) => (
                         <ProjectCard key={index} {...project} />
                     ))}
@@ -58,7 +58,7 @@ const Home = () => {
                 {stackScrollState.showLeftButton && (
                     <ScrollButton direction="left" handleScroll={handleStackScroll} />
                 )}
-                <div className="stack-items-container" ref={stackContainerRef}>
+                <div className="home-stack-items-container" ref={stackContainerRef}>
                     {stackItems.map((item, index) => (
                         <StackItem key={index} {...item} />
                     ))}

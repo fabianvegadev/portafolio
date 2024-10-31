@@ -1,0 +1,69 @@
+.extended-project-card {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--c-black-two);
+    border-radius: var(--border-two);
+    box-shadow: 0 5rem 10rem var(--c-s-black);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 740rem;
+    height: 350rem;
+    color: var(--c-xxl-white);
+}
+
+.extended-project-card:hover {
+    transform: translateY(-8px);
+    box-shadow: var(--shadow-two);
+}
+
+.project-left-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40%;
+    height: 100%;
+}
+
+.project-image-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 245rem;
+    height: 210rem;
+}
+
+.project-image-container img {
+    position: absolute;
+    width: 120%;
+    left: -8%;
+    top: 4%;
+}
+
+.project-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+    width: 60%;
+    padding: 20rem 20rem 20rem 0;
+}
+
+.project-description {
+    max-height: 80%;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.project-tech {
+    color: #aaa;
+    margin-bottom: 15px;
+}
+
+.project-links {
+    display: flex;
+    justify-content: flex-end;
+    gap: 16rem;
+}
+
+.project-description::-webkit-scrollbar {
+    display: none;    
+}

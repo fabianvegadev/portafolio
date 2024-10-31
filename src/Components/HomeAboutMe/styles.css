@@ -5,12 +5,7 @@
 }
 
 .work-image-container {
-    width: 100%;
-    min-width: 100rem;
-    max-width: 200rem;
-    height: 100%;
-    max-height: 200rem;
-    min-height: 100rem;
+    width: 56%;
 }
 
 .text-container p {

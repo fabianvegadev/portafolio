@@ -4,10 +4,18 @@
     flex-direction: column;
     justify-content: space-evenly;
     min-width: 260rem;
+    max-width: 280rem;
     height: 340rem;
-    border-radius: var(--b-primary);
+    border-radius: var(--border-one);
+    background-color: var(--c-black-two);
     box-shadow: 0 5rem 10rem var(--c-s-black);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
     padding: 8rem 8rem;
+}
+
+.experience-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.5);
 }
 
 .experience-skills {

@@ -30,7 +30,7 @@
     background-color: #4caf50;
     color: #fff;
     border: none;
-    border-radius: 5px;
+    border-radius: var(--border-three);
     font-size: 16px;
     cursor: pointer;
     transition: background-color 0.3s;
@@ -62,7 +62,7 @@
     font-size: 16px;
     background-color: #333;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: var(--border-three);
     color: #f0f0f0;
 }
 

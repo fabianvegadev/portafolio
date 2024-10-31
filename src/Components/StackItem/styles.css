@@ -2,12 +2,12 @@
     display: flex;
     scroll-snap-align: center;
     flex-direction: column;
-    min-width: 260rem;
+    min-width: 220rem;
     height: 260rem;
     padding: 8rem;
     border-style: solid;
-    border-radius: var(--b-primary);
-    border-width: 2rem;
+    border-radius: var(--border-one);
+    border-width: 1rem;
     border-color: var(--c-gold);
 }
 

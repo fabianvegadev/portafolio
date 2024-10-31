@@ -21,7 +21,7 @@
     width: 100%;
     padding: 12px;
     margin: 8px 0;
-    border-radius: 5px;
+    border-radius: var(--border-three);
     border: 1px solid #555;
     background-color: #1a1a1a;
     color: #fff;
@@ -35,7 +35,7 @@
     color: #fff;
     font-size: 16px;
     border: none;
-    border-radius: 5px;
+    border-radius: var(--border-three);
     cursor: pointer;
     transition: background-color 0.3s;
 }

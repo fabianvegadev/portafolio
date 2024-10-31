@@ -22,8 +22,8 @@ const ProjectCard = ({image, title, techs, description, linkGitHub, linkPreview}
                 <figure className="project-card-image-container">
                         <img src={image} alt='mustard-habit'/>
                 </figure>
-                    <h3>{title}</h3>     
-                    {context.isMovile && 
+                    <h3><strong>{title}</strong></h3>     
+                    {context.isMobile && 
                         <u onClick={() => handleDescriptionClick()}
                         className='project-card-description'>Descripción</u>}                
                 <div className="front-detail-container">
@@ -34,10 +34,10 @@ const ProjectCard = ({image, title, techs, description, linkGitHub, linkPreview}
                     </ul>
                     <div className='buttons-container'>
                         <a href={linkGitHub}>
-                            <button className='secundary-button'><LuGithub size={15}/> Project</button>
+                            <button className='secundary-button'><LuGithub size={14}/> view code</button>
                         </a>
                         <a href={linkPreview}>
-                            <button className='secundary-button'><LuLink size={15}/> Preview</button>
+                            <button className='secundary-button'><LuLink size={14}/> live demo</button>
                         </a>
                     </div>
                 </div>
@@ -46,7 +46,7 @@ const ProjectCard = ({image, title, techs, description, linkGitHub, linkPreview}
                 <div className='back-description'>
                     <p className='secundary-paragraph'>{description}</p>
                 </div> 
-                {context.isMovile && 
+                {context.isMobile && 
                     <HiArrowUturnRight onClick={() => handleDescriptionClick()} className='return-icon'/>}                
                 <CustomLink to={paths.underConstruction} className='description-link-ver-mas'><u>Ver más...</u></CustomLink>               
                 <h3>{title}</h3>            

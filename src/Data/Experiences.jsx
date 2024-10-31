@@ -12,5 +12,12 @@ export const experiences = [
         period: 'Marzo 2018 - Mayo 2021 (3.2 años)',
         description: 'Verifiqué el funcionamiento eléctrico y mecánico del parque automotor de Cúcuta, asegurando el cumplimiento de las normas legales.',
         skills: ['Liderazgo', 'Trabajo en equipo', 'Resiliencia', 'Capacitación y enseñanza']
-    }
+    },
+    {
+        company: 'CDAG La Merced',
+        role: 'Inspector Automotriz',
+        period: 'Marzo 2018 - Mayo 2021 (3.2 años)',
+        description: 'Verifiqué el funcionamiento eléctrico y mecánico del parque automotor de Cúcuta, asegurando el cumplimiento de las normas legales.',
+        skills: ['Liderazgo', 'Trabajo en equipo', 'Resiliencia', 'Capacitación y enseñanza']
+    },
 ];

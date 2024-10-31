@@ -8,7 +8,7 @@ const ExperienceCard = ({ company, role, period, description, skills }) => {
 
     return (
         <div className="experience-card">
-            <h3>{role}</h3>
+            <h3><strong>{role}</strong></h3>
             <h4>{company}</h4>
             <p className='secundary-paragraph'>{period}</p>
             <p className='secundary-paragraph'>{description}</p>
