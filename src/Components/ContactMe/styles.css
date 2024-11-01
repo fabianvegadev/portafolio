@@ -1,0 +1,22 @@
+.stiker-contact-me {
+    position: fixed;
+    right: 36rem;
+    bottom: 8rem;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 124rem;
+    height: 80rem;
+}
+
+.stiker-contact-me-arrow {
+    color: var(--c-xxl-white);
+    font-size: 32rem;
+}
+
+.stiker-contact-me-img {
+    width: 80rem;
+    height: 42rem;
+    cursor: pointer;
+}
