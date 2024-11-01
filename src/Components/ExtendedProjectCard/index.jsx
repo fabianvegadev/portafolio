@@ -19,7 +19,7 @@ const ExtendedProjectCard = ({ image, title, techs, description, linkGitHub, lin
                         <button className='secundary-button'><LuGithub size={14}/> view code</button>
                     </a>
                     <a href={linkPreview}>
-                        <button className='secundary-button'><LuLink size={14}/> live demo</button>
+                        <button className='secundary-button' ><LuLink size={14}/> live demo</button>
                     </a>
                 </div>                    
             </div>

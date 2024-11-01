@@ -1,23 +1,25 @@
-// ExperienceCard.jsx
+import { useContext } from 'react';
+import { MostroDevContext } from '../../Context';
 import PropTypes from 'prop-types';
-import { CustomLink } from '../CustomLink';
-import { paths } from '../../Routes/Paths';
 import './styles.css';
 
-const ExperienceCard = ({ company, role, period, description, skills }) => {
+const ExperienceCard = ({ company, role, period, time, description, skills }) => {
+    const context = useContext(MostroDevContext)
 
     return (
         <div className="experience-card">
             <h3><strong>{role}</strong></h3>
             <h4>{company}</h4>
-            <p className='secundary-paragraph'>{period}</p>
-            <p className='secundary-paragraph'>{description}</p>
-            <CustomLink to={paths.underConstruction}><u>Ver mas...</u></CustomLink>
-            <ul className="experience-skills">
-                {skills.map((skill, index) => (
-                    <li key={index} className='skills'>{skill}</li>
-                ))}
-            </ul>
+            <p className='secundary-paragraph experience-period'>{period}</p>
+            <p className='secundary-paragraph experience-time'>{time}</p>
+            <p className='secundary-paragraph experience-description'>{description}</p>
+            {!context.isMobile && 
+                <ul className="experience-skills">
+                    {skills.map((skill, index) => (
+                        <li key={index} className='skills'>{skill}</li>
+                    ))}
+                </ul>
+            }
         </div>
     )
 };
@@ -26,6 +28,7 @@ ExperienceCard.propTypes = {
     company: PropTypes.string.isRequired,
     role: PropTypes.string.isRequired,
     period: PropTypes.string.isRequired,
+    time: PropTypes.string.isRequired,
     description: PropTypes.string.isRequired,
     skills: PropTypes.arrayOf(PropTypes.string).isRequired,
 };
