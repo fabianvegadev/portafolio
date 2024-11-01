@@ -15,6 +15,7 @@
 .skill-item-description-container {
     max-height: 40%;
     padding: 16rem 8rem;
+    text-align: justify;
     overflow: scroll;
     overflow-x: hidden;
 }
@@ -32,12 +33,12 @@
     .skill-item {
         display: grid;
         place-items: center;
-        grid-template-columns: 40% 60%;
+        grid-template-columns: 30% 70%;
         grid-template-rows: 15% 85%;
         grid-template-areas: 
             'title years'
             'levelChart description';
-        width: 100%;
+        width: 740rem;
         height: 200rem;
         padding: 16rem 16rem 8rem 0;  
     }
@@ -56,9 +57,11 @@
 
     .skill-item-description-container {
         grid-area: description;
+        max-width: 100%;
+        max-height: 80%;
     }
 
-    .skill-item-description-container {
-        max-height: 80%;
+    .skill-item-description-container p{
+        max-width: 100%;
     }
 }
