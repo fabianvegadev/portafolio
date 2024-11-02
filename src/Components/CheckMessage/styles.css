@@ -1,0 +1,10 @@
+.check-message-container {
+    position: absolute;
+    bottom: 100%;
+    left: 100%;
+    font-size: 12rem;
+    padding: 2rem 4rem;
+    color: var(--c-xxl-black);
+    border-radius: var(--border-three);
+    background-color: var(--c-xxl-white);
+}

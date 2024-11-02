@@ -45,6 +45,7 @@ img {
     border-radius: var(--border-two);
 }
 button {
+    position: relative;
     font-size: medium;
     color: var(--c-xxl-white);
     background-color: var(--c-transparent-black);

@@ -33,10 +33,10 @@ const ProjectCard = ({image, title, techs, description, linkGitHub, linkPreview}
                         ))}
                     </ul>
                     <div className='buttons-container'>
-                        <a href={linkGitHub}>
+                        <a href={linkGitHub} target='_blank'>
                             <button className='secundary-button'><LuGithub size={14}/> view code</button>
                         </a>
-                        <a href={linkPreview}>
+                        <a href={linkPreview} target='_blank'>
                             <button className='secundary-button'><LuLink size={14}/> live demo</button>
                         </a>
                     </div>
@@ -51,10 +51,10 @@ const ProjectCard = ({image, title, techs, description, linkGitHub, linkPreview}
                 <CustomLink to={paths.underConstruction} className='description-link-ver-mas'><u>Ver más...</u></CustomLink>               
                 <h3>{title}</h3>            
                     <div className='buttons-container'>
-                        <a href={linkGitHub}>
+                        <a href={linkGitHub} target='_blank'>
                             <button className='secundary-button'><LuGithub size={15}/> Project</button>
                         </a>
-                        <a href={linkPreview}>
+                        <a href={linkPreview} target='_blank'>
                             <button className='secundary-button'><LuLink size={15}/> Preview</button>
                         </a>
                     </div>

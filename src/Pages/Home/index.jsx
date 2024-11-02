@@ -7,6 +7,8 @@ import { HomeAboutMe } from '../../Components/HomeAboutMe';
 import { ProjectCard } from '../../Components/ProjectCard';
 import { StackItem } from '../../Components/StackItem';
 import { ExperienceCard } from '../../Components/ExperienceCard';
+import { ContactInfo } from '../../Components/ContactInfo';
+import { ContactForm } from '../../Components/ContactForm';
 import { Layout } from '../../Components/Layout';
 import { ScrollButton } from '../../Components/ScrollButton';
 import { useScrollButtons } from '../../Hooks/useScrollButtons';
@@ -89,6 +91,11 @@ const Home = () => {
                 <CustomLink to={paths.experience}>
                     <button>Ver más...</button>
                 </CustomLink>
+            </Layout>
+            <Layout>
+                <h2>Contáctame</h2>
+                <ContactInfo/>
+                <ContactForm/>
             </Layout>
         </>
     );

@@ -1,5 +1,6 @@
 .contact-form {
     width: 100%;
+    max-width: 700rem;
     margin: 16px 0;
 }
 
@@ -15,7 +16,6 @@
 }
 
 .contact-form button {
-    width: 100%;
     padding: 12px;
     background-color: #28a745;
     color: #fff;
@@ -28,5 +28,10 @@
 
 .contact-form button:hover {
     background-color: #218838;
+}
+
+.contact-form button:active {
+    padding: 8rem;
+    margin: 4rem;
 }
 

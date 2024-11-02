@@ -1,6 +1,6 @@
 import { Layout } from "../../Components/Layout";
 import { ContactForm } from '../../Components/ContactForm';
-import ContactInfo from '../../Components/ContactInfo';
+import { ContactInfo } from '../../Components/ContactInfo';
 import { SocialLinks } from '../../Components/SocialLinks';
 import './styles.css';
 

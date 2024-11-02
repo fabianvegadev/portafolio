@@ -1,4 +1,96 @@
 .contact-info {
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    grid-template-rows: 40% 20% 20% 20%;
+    grid-template-areas: 
+        'title title title'
+        'gmail email copy'
+        'whatsapp phone writeme'
+        'address address address';
+    place-content: center;
+    place-items: center;
+    gap: 8rem;
     width: 100%;
-    margin: 16px 0;
+    max-width: 360rem;
+}
+
+.contact-info h3 {
+    grid-area: title;
+}
+
+.contact-info-email-icon {
+    grid-area: gmail;
+    color: var(--c-xxl-white);
+}
+
+.contact-info-email-input {
+    grid-area: email;
+    justify-self: start;
+    font-size: 16rem;
+    color: var(--c-xxl-white);
+    border: none;
+    background-color: transparent;
+    font-family: var(--f-secundary);
+    width: 100%;
+}
+
+.contact-info-email-button {
+    grid-area: copy;
+    text-align: center;
+}
+
+.contact-info-whatsapp-icon {
+    grid-area: whatsapp;
+    color: var(--c-xxl-white);
+}
+
+.contact-info-whatsapp-p {
+    grid-area: phone;
+    justify-self: start;
+    text-align: start;
+    font-size: 16rem;
+}
+
+.contact-info-whatsapp-writeme {
+    grid-area: writeme;
+}
+
+.contact-info-address {
+    grid-area: address;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--c-xxl-white);
+    width: 100%;
+}
+
+.contact-info-address p {
+    max-width: 160rem;
+}
+
+.contact-info-email-button,
+.contact-info-whatsapp-button {
+    padding: 2rem 4rem 1rem;
+    width: 26rem;
+    height: 26rem;
+    background-color: #28a745;
+    color: var(--c-xxl-white);
+    font-size: 12px;
+    border: none;
+    border-radius: var(--border-three);
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-info-email-button:hover,
+.contact-info-whatsapp-button:hover {
+    background-color: #218838;
+}
+
+.contact-info-email-button:active,
+.contact-info-whatsapp-button:active {
+    width: 24rem;
+    height: 24rem;
+    padding: 1rem 3rem 1rem;
+    margin: 1rem;
 }

@@ -5,7 +5,7 @@ const ScrollNav = ({ navItems }) => {
     return (
         <div className='nav-items'>
             {navItems.map((item, index) => (
-                <a key={index} href={`#${item.key}`}>{item.value}</a>            
+                <a key={index} href={`#${item.key}`} target='_blank'>{item.value}</a>            
             ))}
         </div>
     );
