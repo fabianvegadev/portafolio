@@ -3,6 +3,7 @@
     scroll-snap-align: center;
     text-align: center;
     width: 260rem;
+    min-width: 260rem;
     height: 340rem;
 }
 
