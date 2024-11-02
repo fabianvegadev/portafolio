@@ -1,6 +1,7 @@
 .page-project-cards-container {
     display: flex;
-    flex-direction: column;
-    gap: 20px;
+    flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
+    gap: 20px;
 }

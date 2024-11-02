@@ -11,8 +11,8 @@ const Projects = () => {
 
     return (
         <Layout>
-            <div className="page-project-cards-container">
                 <h2>Proyectos principales</h2>
+            <div className="page-project-cards-container">
                 {context.isMobile && primaryProjects.map((project, index) => (
                     <ProjectCard key={index}{...project}/>
                 ))}

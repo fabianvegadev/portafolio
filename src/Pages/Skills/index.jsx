@@ -5,7 +5,7 @@ import './styles.css'
 
 const Skills = () => {
 return (
-        <Layout className="page-skills-section">
+        <Layout>
             <h2>Skills</h2>
             <div className="skills-list">
             {skillsData.map((skill, index) => (

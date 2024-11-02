@@ -2,7 +2,7 @@
     position: relative;
     scroll-snap-align: center;
     text-align: center;
-    min-width: 260rem;
+    width: 260rem;
     height: 340rem;
 }
 
