@@ -4,18 +4,12 @@
     flex-direction: column;
     justify-content: space-evenly;
     min-width: 260rem;
-    max-width: 280rem;
+    max-width: 600rem;
     height: 340rem;
     border-radius: var(--border-one);
     background-color: var(--c-black-two);
-    box-shadow: 0 5rem 10rem var(--c-s-black);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     padding: 10rem;
-}
-
-.experience-card:hover {
-    transform: translateY(-8px);
-    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.5);
 }
 
 .experience-time {
@@ -23,9 +17,9 @@
 }
 
 .experience-description {
+    max-width: 100%;
     overflow-y: scroll;
     text-align: justify;
-    padding: 2rem 2rem;
 }
 
 .experience-skills {
@@ -41,56 +35,4 @@
 
 .experience-description::-webkit-scrollbar {
     display: none;
-}
-
-@media (min-width:801px) {
-    .experience-card {
-        display: grid;
-        grid-template-columns: 70% 30%;
-        grid-template-rows: 28rem 24rem auto 32rem;
-        grid-template-areas: 
-            'role time'
-            'company period'
-            'description description'
-            'skills skills';
-        text-align: left;
-        align-items: center;
-        width: 100%;
-        max-width: 740rem;
-        height: auto;
-        padding: 20rem;
-    }
-
-    .experience-card h3 {
-        grid-area: role;
-        padding-left: 20rem;
-    }
-
-    .experience-card h4 {
-        grid-area: company;
-        padding-left: 20rem;
-    }
-
-    .experience-period {
-        grid-area: period;
-        text-align: right;
-    }
-
-    .experience-time {
-        grid-area: time;
-        text-align: right;
-        font-weight: 700;
-    }
-
-    .experience-description {
-        grid-area: description;
-        max-width: 100%;
-        padding: 20rem;
-        align-self: start;
-    }
-
-    .experience-skills {
-        grid-area: skills;
-        height: 100%;
-    }
 }

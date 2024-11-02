@@ -10,7 +10,7 @@ const Navbar = () => {
             <ul>
                 <li>
                     <CustomLink to={paths.contact} className='navbar-desktop-link'>
-                        CONTACTO
+                        <b>CONTACTO</b>
                     </CustomLink>
                 </li>
                 <li>

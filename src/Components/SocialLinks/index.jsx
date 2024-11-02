@@ -1,19 +1,17 @@
-import { FaLinkedin, FaGithub, FaTwitter } from 'react-icons/fa';
+import { FaLinkedin, FaGithub } from 'react-icons/fa';
+import './styles.css';
 
-const SocialLinks = () => {
+const SocialLinks = ({ className }) => {
     return (
-        <div className='social-links'>
-            <a href='https://linkedin.com/in/fabianvelasquez' target='_blank' rel='noopener noreferrer'>
+        <div className={`social-links ${className}`}>
+            <a href='https://www.linkedin.com/in/fabianvegadev/' target='_blank' rel='noopener noreferrer'>
                 <FaLinkedin />
             </a>
-            <a href='https://github.com/fabianvelasquez' target='_blank' rel='noopener noreferrer'>
+            <a href='https://github.com/fabianvegadev' target='_blank' rel='noopener noreferrer'>
                 <FaGithub />
-            </a>
-            <a href='https://twitter.com/fabianvelasquez' target='_blank' rel='noopener noreferrer'>
-                <FaTwitter />
             </a>
         </div>
     );
 };
 
-export default SocialLinks;
+export { SocialLinks };

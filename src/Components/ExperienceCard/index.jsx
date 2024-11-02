@@ -1,10 +1,7 @@
-import { useContext } from 'react';
-import { MostroDevContext } from '../../Context';
 import PropTypes from 'prop-types';
 import './styles.css';
 
 const ExperienceCard = ({ company, role, period, time, description, skills }) => {
-    const context = useContext(MostroDevContext)
 
     return (
         <div className="experience-card">
@@ -12,14 +9,12 @@ const ExperienceCard = ({ company, role, period, time, description, skills }) =>
             <h4>{company}</h4>
             <p className='secundary-paragraph experience-period'>{period}</p>
             <p className='secundary-paragraph experience-time'>{time}</p>
-            <p className='secundary-paragraph experience-description'>{description}</p>
-            {!context.isMobile && 
-                <ul className="experience-skills">
-                    {skills.map((skill, index) => (
-                        <li key={index} className='skills'>{skill}</li>
-                    ))}
-                </ul>
-            }
+            <p className='secundary-paragraph experience-description'>{description}</p>            
+            <ul className="experience-skills">
+                {skills.map((skill, index) => (
+                    <li key={index} className='skills'>{skill}</li>
+                ))}
+            </ul>            
         </div>
     )
 };

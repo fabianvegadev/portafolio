@@ -5,7 +5,7 @@
 }
 
 .work-image-container {
-    width: 56%;
+    width: 250rem;
 }
 
 .text-container p {
@@ -23,6 +23,7 @@
     }
 
     .work-image-container {
+        align-self: start;
         grid-column: 2 / 3;
     }
 

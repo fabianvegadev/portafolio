@@ -1,8 +1,7 @@
 .secundary-paragraph {
     width: 100%;
-    max-width: 400rem;
-    margin: 0 auto;
-    padding: 0 auto 12rem auto;
+    padding: 0 2rem;
+    margin-bottom: 12rem;
     font-size: 16rem;
     font-family: var(--f-secundary);
     color: var(--c-s-white);

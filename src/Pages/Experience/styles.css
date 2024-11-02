@@ -1,18 +1,6 @@
-.experience-cards-container {
+.page-experience-cards-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    gap: 12rem;
-    width: 80%;
-    max-width: 820rem;
-    padding: 8rem;
-    overflow-x: scroll;
-    overscroll-behavior-x: contain;
-    scroll-snap-type: x proximity;
-    scroll-behavior: smooth;
-    transition: 2s;
-}
-
-.experience-cards-container::-webkit-scrollbar {
-    display: none;
+    gap: 20px;
+    justify-content: center;
 }

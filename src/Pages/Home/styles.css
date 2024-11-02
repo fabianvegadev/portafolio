@@ -1,5 +1,6 @@
 .home-stack-items-container,
-.home-project-cards-container {
+.home-project-cards-container,
+.home-experience-cards-container {
     display: flex;
     align-items: center;
     gap: 12rem;
@@ -16,11 +17,13 @@
     max-width: 852rem;
 }
 
-.home-project-cards-container {
+.home-project-cards-container,
+.home-experience-cards-container {
     max-width: 820rem;
 }
 
 .home-stack-items-container::-webkit-scrollbar,
-.home-project-cards-container::-webkit-scrollbar  {
+.home-project-cards-container::-webkit-scrollbar,
+.home-experience-cards-container::-webkit-scrollbar  {
     display: none;
 }

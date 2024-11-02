@@ -12,7 +12,7 @@ header {
     height: 60rem;
     padding: 8rem 16rem 10rem 32rem;
     background-color: black;
-    border-radius: 0 0 16rem 16rem;
+    border-radius: 0 0 var(--border-one) var(--border-one);
 }
 
 .header-logo-container {

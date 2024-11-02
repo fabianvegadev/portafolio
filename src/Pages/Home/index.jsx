@@ -77,7 +77,7 @@ const Home = () => {
                 {experienceScrollState.showLeftButton && (
                     <ScrollButton direction="left" handleScroll={handleExperienceScroll} />
                 )}
-                <div className="experience-cards-container" ref={experienceContainerRef}>
+                <div className="home-experience-cards-container" ref={experienceContainerRef}>
                     {experiences.map((exp, index) => (
                         <ExperienceCard key={index} {...exp} />
                     ))}

@@ -1,0 +1,28 @@
+.nav-items {
+    position: sticky;
+    top: 60rem;
+    z-index: 20;
+    display: flex;
+    font-size: 12rem;
+    font-family: var(--f-secundary);
+    background-color: var(--c-black-two);
+    box-shadow: var(--shadow-two);
+    border-radius: 0 0 var(--border-three) var(--border-three);
+    padding: 4rem 8rem;
+    margin-bottom: 12rem;
+}
+
+.nav-items a:hover {
+    transform: translateY(-1rem);
+    box-shadow: var(--shadow-two);
+}
+
+.nav-items a::after {
+    content: "|";
+    margin: 0 10rem 0 10rem;
+    color: #9EA3AE;
+}
+
+.nav-items a:last-child::after {
+    content: none;
+}

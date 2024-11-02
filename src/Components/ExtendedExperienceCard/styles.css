@@ -1,0 +1,60 @@
+.extended-experience-card {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 28rem 24rem auto 32rem;
+    grid-template-areas: 
+        'role time'
+        'company period'
+        'description description'
+        'skills skills';
+    text-align: left;
+    align-items: center;
+    width: 100%;
+    max-width: 740rem;
+    height: auto;
+    padding: 20rem;
+    border-radius: var(--border-one);
+    background-color: var(--c-black-two);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.extended-experience-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.5);
+}
+
+.extended-experience-card h3 {
+    grid-area: role;
+    padding-left: 20rem;
+}
+
+.extended-experience-card h4 {
+    grid-area: company;
+    padding-left: 20rem;
+}
+
+.extended-experience-period {
+    grid-area: period;
+    text-align: right;
+}
+
+.extended-experience-time {
+    grid-area: time;
+    text-align: right;
+    font-weight: 700;
+}
+
+.extended-experience-description {
+    grid-area: description;
+    max-width: 100%;
+    padding: 20rem;
+    align-self: start;
+}
+
+.extended-experience-skills {
+    grid-area: skills;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100%;
+}

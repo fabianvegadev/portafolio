@@ -11,8 +11,8 @@ const Projects = () => {
 
     return (
         <Layout>
-            <h2>Proyectos principales</h2>
             <div className="page-project-cards-container">
+                <h2>Proyectos principales</h2>
                 {context.isMobile && primaryProjects.map((project, index) => (
                     <ProjectCard key={index}{...project}/>
                 ))}
@@ -20,6 +20,7 @@ const Projects = () => {
                     <ExtendedProjectCard key={index}{...project}/>
                 ))}                
             </div>
+            <h2>Otros Proyectos</h2>
         </Layout>
     )
 }

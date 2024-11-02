@@ -3,7 +3,6 @@
     justify-content: space-between;
     background-color: var(--c-black-two);
     border-radius: var(--border-two);
-    box-shadow: 0 5rem 10rem var(--c-s-black);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     width: 740rem;
     height: 350rem;

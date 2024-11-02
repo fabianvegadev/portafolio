@@ -1,4 +1,5 @@
 import { Layout } from '../Layout';
+import { SocialLinks } from '../SocialLinks';
 import { CustomLink } from '../CustomLink';
 import { paths } from '../../Routes/Paths';
 import Foto from '../../assets/foto.png';
@@ -10,6 +11,7 @@ const HomeAboutMe = () => {
         <Layout className='section-home-about-me-container'>
             <figure className='work-image-container'>
                 <img src={Foto} alt='Foto' />
+                <SocialLinks className='home-about-me-social-links'/>
             </figure>
             <div className='text-container'>
                 <h1>¡ Hola ! 👋 <br/> Soy Fabian Velasquez</h1>
