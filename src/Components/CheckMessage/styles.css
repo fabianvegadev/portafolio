@@ -1,7 +1,7 @@
 .check-message-container {
     position: absolute;
     bottom: 100%;
-    left: 100%;
+    right: 100%;
     font-size: 12rem;
     padding: 2rem 4rem;
     color: var(--c-xxl-black);
