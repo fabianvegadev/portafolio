@@ -1,15 +1,19 @@
 .section-home-about-me-container {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    gap: 0;
 }
 
 .work-image-container {
     width: 250rem;
+    margin-top: 8rem;
+}
+
+.text-container h1 {
+    margin-bottom: 12rem;
 }
 
 .text-container p {
-    margin-bottom: 30rem;
+    margin-bottom: 24rem;
 }
 
 @media (min-width:851px) {

@@ -9,6 +9,7 @@ import { StackItem } from '../../Components/StackItem';
 import { ExperienceCard } from '../../Components/ExperienceCard';
 import { ContactInfo } from '../../Components/ContactInfo';
 import { ContactForm } from '../../Components/ContactForm';
+import { SocialLinks } from '../../Components/SocialLinks';
 import { Layout } from '../../Components/Layout';
 import { ScrollButton } from '../../Components/ScrollButton';
 import { useScrollButtons } from '../../Hooks/useScrollButtons';
@@ -96,6 +97,7 @@ const Home = () => {
                 <h2>Contáctame</h2>
                 <ContactInfo/>
                 <ContactForm/>
+                <SocialLinks/>
             </Layout>
         </>
     );
