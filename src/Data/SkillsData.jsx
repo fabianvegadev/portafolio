@@ -1,4 +1,4 @@
-export const skillsData = [
+export const frontendSkills = [
     {
         name: 'React',
         level: 'Intermediate2',
@@ -22,13 +22,10 @@ export const skillsData = [
         level: 'Advanced1',
         description: 'Dominio en el diseño y estilización de interfaces responsivas con CSS3, empleando flexbox, grid y animaciones para mejorar la experiencia visual del usuario.',
         yearsOfExperience: 2,
-    },
-    {
-        name: 'MySQL',
-        level: 'Intermediate2',
-        description: 'Manejo de bases de datos relacionales con MySQL, realizando consultas, modificaciones de datos y optimización de consultas para un mejor rendimiento.',
-        yearsOfExperience: 1,
-    },
+    }
+];
+
+export const backendSkills = [
     {
         name: 'Java',
         level: 'Intermediate1',
@@ -46,5 +43,14 @@ export const skillsData = [
         level: 'Beginner2',
         description: 'Implementación de aplicaciones web sencillas con Flask, integrando rutas y conectividad a bases de datos para gestionar funcionalidades backend básicas.',
         yearsOfExperience: 0.5,
+    },
+];
+
+export const databaseSkills = [
+    {
+        name: 'MySQL',
+        level: 'Intermediate2',
+        description: 'Manejo de bases de datos relacionales con MySQL, realizando consultas, modificaciones de datos y optimización de consultas para un mejor rendimiento.',
+        yearsOfExperience: 1,
     },
 ];

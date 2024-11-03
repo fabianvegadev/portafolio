@@ -1,4 +1,4 @@
-.nav-items {
+.scroll-nav {
     position: sticky;
     top: 60rem;
     z-index: 20;
@@ -10,19 +10,20 @@
     border-radius: 0 0 var(--border-three) var(--border-three);
     padding: 4rem 8rem;
     margin-bottom: 12rem;
+    cursor: pointer;
 }
 
-.nav-items a:hover {
+.scroll-nav .scroll-nav-link:hover {
     transform: translateY(-1rem);
     box-shadow: var(--shadow-two);
 }
 
-.nav-items a::after {
+.scroll-nav .scroll-nav-link::after {
     content: "|";
     margin: 0 10rem 0 10rem;
     color: #9EA3AE;
 }
 
-.nav-items a:last-child::after {
+.scroll-nav .scroll-nav-link:last-child::after {
     content: none;
 }

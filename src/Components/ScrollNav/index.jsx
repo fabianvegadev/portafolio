@@ -1,13 +1,22 @@
 import PropTypes from 'prop-types';
+import { Link } from 'react-scroll';
+
 import './styles.css';
 
 const ScrollNav = ({ navItems }) => {
     return (
-        <div className='nav-items'>
+        <nav className='scroll-nav'>
             {navItems.map((item, index) => (
-                <a key={index} href={`#${item.key}`} target='_blank'>{item.value}</a>            
+                <Link 
+                    key={index} 
+                    className='scroll-nav-link' 
+                    to={item.key} 
+                    smooth={true} 
+                    uration={500}
+                    offset={-110}>
+                        {item.value}</Link>            
             ))}
-        </div>
+        </nav>
     );
 };
 
