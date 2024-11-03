@@ -4,8 +4,9 @@
     display: flex;
     align-items: center;
     gap: 12rem;
-    width: 80%;
+    max-width: 80%;
     padding: 8rem;
+    margin: 0 auto;
     overflow-x: scroll;
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;

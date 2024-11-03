@@ -1,8 +1,6 @@
 import { useContext, useState } from 'react';
 import { MostroDevContext } from '../../Context';
 import PropTypes from 'prop-types';
-import { CustomLink } from '../../Components/CustomLink';
-import { paths } from '../../Routes/Paths';
 import { HiArrowUturnRight } from "react-icons/hi2";
 import { LuLink, LuGithub } from "react-icons/lu";
 import '../../Utils/GeneralStyles/secundary-styles.css';
@@ -48,7 +46,6 @@ const ProjectCard = ({image, title, techs, description, linkGitHub, linkPreview}
                 </div> 
                 {context.isMobile && 
                     <HiArrowUturnRight onClick={() => handleDescriptionClick()} className='return-icon'/>}                
-                <CustomLink to={paths.underConstruction} className='description-link-ver-mas'><u>Ver más...</u></CustomLink>               
                 <h3>{title}</h3>            
                     <div className='buttons-container'>
                         <a href={linkGitHub} target='_blank'>
