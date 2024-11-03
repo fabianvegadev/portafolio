@@ -17,7 +17,7 @@ const AboutMe = () => {
                 </p>
 
                 <p className='aboutme-description'>
-                    En el ámbito profesional, me conocen como &apos;mostroDev&apos;, un seudónimo que nace de un apodo cariñoso: &apos;el mostro&apos;. Este nombre refleja tanto mi estilo como mi compromiso con lo que hago, ya sea en el mundo del desarrollo o en los detalles de la vida.
+                    En el ámbito profesional, me conocen como <b>&apos;MostroDev&apos;</b>, un seudónimo que nace de un apodo cariñoso: <b>&apos;el mostro&apos;</b>. Este nombre refleja tanto mi estilo como mi compromiso con lo que hago, ya sea en el mundo del desarrollo o en los detalles de la vida.
                 </p>
 
                 <p className='aboutme-description'>
@@ -25,7 +25,7 @@ const AboutMe = () => {
                 </p>
 
                 <p className='aboutme-description'>
-                    Mi meta es seguir creciendo como profesional, aportando mi conocimiento a proyectos innovadores y trabajando en equipos donde pueda aprender y contribuir con mi experiencia. Me motiva colaborar en proyectos de impacto, construyendo un futuro mejor con tecnología y buscando siempre ser &apos;el mostro&apos; en cada cosa que hago.
+                    Mi meta es seguir creciendo como profesional, aportando mi conocimiento a proyectos innovadores y trabajando en equipos donde pueda aprender y contribuir con mi experiencia. Me motiva colaborar en proyectos de impacto, construyendo un futuro mejor con tecnología y buscando siempre ser <b>&apos;el mostro&apos;</b> en cada cosa que hago.
                 </p>
                 <a href={cv} target='_blank'>
                     <button className='download-cv-button'><FaDownload /> Descargar CV</button>
