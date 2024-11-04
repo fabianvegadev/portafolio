@@ -30,7 +30,6 @@ export const primaryProjects = [
         image: logo,
         title: 'Próximamente',
         techs: [
-            'Persistencia',
             'Amor por la tecnología'
         ],
         description: 'Estoy trabajando en nuevos proyectos que estarán disponibles pronto. ¡Mantente al tanto para ver más de mi trabajo y explorar nuevas ideas y desarrollos!',

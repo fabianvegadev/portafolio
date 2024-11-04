@@ -22,7 +22,7 @@ const useScrollButtons = () => {
     }, []);
 
     const handleScroll = (direction) => {
-        const scrollAmount = 180;
+        const scrollAmount = 250;
         if (containerRef.current) {
             containerRef.current.scrollLeft += direction === 'left' ? -scrollAmount : scrollAmount;
             
