@@ -1,11 +1,11 @@
 import { FaCode, FaServer, FaBug, FaTools } from 'react-icons/fa';
 import { SiHtml5, SiCss3, SiJavascript, SiReact, SiTailwindcss, SiSelenium, SiCucumber, SiVisualstudiocode, SiGit, SiGithub, SiAzuredevops, SiPostman } from "react-icons/si";
-import java from '../assets/java.svg';
-import python from '../assets/python.svg';
-import flask from '../assets/flask.svg';
-import linux from '../assets/linux.png';
-import postgresql from '../assets/postgresql.svg';
-import mysql from '../assets/mysql.svg';
+import java from '../assets/Icons/java.svg';
+import python from '../assets/Icons/python.svg';
+import flask from '../assets/Icons/flask.svg';
+import linux from '../assets/Icons/linux.png';
+import postgresql from '../assets/Icons/postgresql.svg';
+import mysql from '../assets/Icons/mysql.svg';
 
 export const stackItems = [
     {

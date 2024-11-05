@@ -3,13 +3,14 @@
     top: 60rem;
     z-index: 20;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     font-size: 12rem;
     font-family: var(--f-secundary);
     background-color: var(--c-black-two);
     box-shadow: var(--shadow-two);
     border-radius: 0 0 var(--border-three) var(--border-three);
     padding: 4rem 8rem;
-    margin-bottom: 12rem;
     cursor: pointer;
 }
 

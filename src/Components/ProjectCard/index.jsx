@@ -6,7 +6,7 @@ import { LuLink, LuGithub } from "react-icons/lu";
 import '../../Utils/GeneralStyles/secundary-styles.css';
 import './styles.css';
 
-const ProjectCard = ({image, title, techs, description, linkGitHub, linkPreview}) => {
+const ProjectCard = ({image, title, techs, description, status, linkGitHub, linkPreview}) => {
     const context = useContext(MostroDevContext)
     const [ isFlipped, setIsFlipped] = useState(false)
     
@@ -18,6 +18,7 @@ const ProjectCard = ({image, title, techs, description, linkGitHub, linkPreview}
         <div className={`project-card-container ${isFlipped ? 'is-flipped' : ''}`.trim()}>
             <div className='face front'>
                 <figure className="project-card-image-container">
+                        {status !== '' && <span>{status}</span>}
                         <img src={image} alt='mustard-habit'/>
                 </figure>
                     <h3><strong>{title}</strong></h3>     
@@ -64,6 +65,7 @@ ProjectCard.propTypes = {
     image: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
     techs: PropTypes.arrayOf(PropTypes.string).isRequired,
+    status: PropTypes.string.isRequired,
     description: PropTypes.string.isRequired,
     linkGitHub: PropTypes.string.isRequired,
     linkPreview: PropTypes.string.isRequired,

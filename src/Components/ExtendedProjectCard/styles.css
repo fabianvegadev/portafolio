@@ -30,6 +30,19 @@
     height: 210rem;
 }
 
+.project-image-container span {
+    position: absolute;
+    bottom: 4rem;
+    right: -16rem;
+    z-index: 1;
+    font-size: 16rem;
+    font-weight: 500;
+    padding: 2rem 10rem;
+    border-radius: var(--border-one);
+    background-color: var(--c-transparent-white);
+    color: var(--c-xxl-black);
+}
+
 .project-image-container img {
     position: absolute;
     width: 120%;
@@ -49,7 +62,6 @@
 .project-description {
     max-height: 80%;
     overflow: scroll;
-    overflow-x: hidden;
 }
 
 .project-tech {

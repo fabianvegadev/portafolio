@@ -12,7 +12,6 @@
     width: 100%;
     height: 100%;
     backface-visibility: hidden;
-    overflow: hidden;
     transition: 0.5s;
 }
 
@@ -28,6 +27,19 @@
     position: absolute;
     width: 100%;
     height: 55%;
+}
+
+.project-card-image-container span {
+    position: absolute;
+    bottom: 8rem;
+    right: 8rem;
+    z-index: 1;
+    font-size: 16rem;
+    font-weight: 500;
+    padding: 2rem 10rem;
+    border-radius: var(--border-one);
+    background-color: var(--c-transparent-white);
+    color: var(--c-xxl-black);
 }
 
 .project-card-image-container img {
@@ -108,7 +120,6 @@
     max-height: 65%;
     padding: 16rem 8rem;
     overflow: scroll;
-    overflow-x: hidden;
 }
 
 .description-link-ver-mas {

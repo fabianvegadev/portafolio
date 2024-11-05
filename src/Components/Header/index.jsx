@@ -5,7 +5,7 @@ import { CustomLink } from "../CustomLink";
 import { SideMenu } from "../SideMenu";
 import { Navbar } from "../Navbar";
 import { FaBars } from "react-icons/fa";
-import logo from '../../assets/logo.png';
+import logo from '../../assets/Logo/logo.png';
 import './styles.css';
 
 const Header = () => {

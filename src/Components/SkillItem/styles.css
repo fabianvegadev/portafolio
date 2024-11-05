@@ -16,7 +16,6 @@
     padding: 16rem 8rem;
     text-align: justify;
     overflow: scroll;
-    overflow-x: hidden;
 }
 
 .skill-item:hover {

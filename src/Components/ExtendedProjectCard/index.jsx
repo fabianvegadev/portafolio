@@ -2,11 +2,12 @@ import PropTypes from 'prop-types';
 import { LuGithub, LuLink } from 'react-icons/lu';
 import './styles.css';
 
-const ExtendedProjectCard = ({ image, title, techs, description, linkGitHub, linkPreview }) => {
+const ExtendedProjectCard = ({ image, title, techs, description, status, linkGitHub, linkPreview }) => {
     return (
         <div className='extended-project-card'>
             <div className='project-left-container'>
                 <figure className='project-image-container' >
+                    {status !== '' && <span>{status}</span>}
                     <img src={image} alt={title} />
                 </figure>
                 <h3 className='project-title'><strong>{title}</strong></h3>                
@@ -30,8 +31,9 @@ const ExtendedProjectCard = ({ image, title, techs, description, linkGitHub, lin
 ExtendedProjectCard.propTypes = {
     image: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
-    description: PropTypes.string.isRequired,
     techs: PropTypes.arrayOf(PropTypes.string).isRequired,
+    status: PropTypes.string.isRequired,
+    description: PropTypes.string.isRequired,
     linkGitHub: PropTypes.string,
     linkPreview: PropTypes.string,
 };

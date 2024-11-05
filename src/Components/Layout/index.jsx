@@ -7,9 +7,11 @@ const Layout = ({children, className}) => {
         className: PropTypes.string,
     };
     return (
-        <section className={`layout ${className}`}>
-            {children}
-        </section>
+        <>
+            <section className={`layout ${className}`}>
+                {children}
+            </section>
+        </>
     )
 }
 

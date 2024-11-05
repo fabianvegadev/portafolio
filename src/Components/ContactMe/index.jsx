@@ -1,6 +1,6 @@
 import { CustomLink } from '../CustomLink';
 import { paths } from '../../Routes/Paths';
-import  Logo5  from '../../assets/Logo5.png';
+import  Logo5  from '../../assets/Logo/Logo5.png';
 import { BsArrowRight } from 'react-icons/bs';
 import './styles.css';
 
