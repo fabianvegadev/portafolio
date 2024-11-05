@@ -1,6 +1,6 @@
 import mh from '../assets/mh.jpg';
 import apimh from '../assets/apimh.jpg';
-import logo from '../assets/foto.png';
+import logo7 from '../assets/Logo7.png';
 
 export const primaryProjects = [
     {
@@ -27,7 +27,7 @@ export const primaryProjects = [
         linkPreview: 'https://api-mustardhabit.onrender.com/'
     },
     {
-        image: logo,
+        image: logo7,
         title: 'Próximamente',
         techs: [
             'Amor por la tecnología'
