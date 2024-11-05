@@ -2,8 +2,8 @@
     position: absolute;
     bottom: 100%;
     right: 100%;
-    font-size: 12rem;
-    padding: 2rem 4rem;
+    font-size: 12px;
+    padding: 2px 4px;
     color: var(--c-xxl-black);
     border-radius: var(--border-three);
     background-color: var(--c-xxl-white);

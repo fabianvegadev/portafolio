@@ -1,7 +1,7 @@
 .extended-experience-card {
     display: grid;
     grid-template-columns: 70% 30%;
-    grid-template-rows: 28rem 24rem auto 60rem;
+    grid-template-rows: 28px 24px auto 60px;
     grid-template-areas: 
         'role time'
         'company period'
@@ -10,9 +10,9 @@
     text-align: left;
     align-items: center;
     width: 100%;
-    max-width: 740rem;
+    max-width: 740px;
     height: auto;
-    padding: 16rem;
+    padding: 16px;
     border-radius: var(--border-one);
     background-color: var(--c-black-two);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -25,12 +25,12 @@
 
 .extended-experience-card h3 {
     grid-area: role;
-    padding-left: 20rem;
+    padding-left: 20px;
 }
 
 .extended-experience-card h4 {
     grid-area: company;
-    padding-left: 20rem;
+    padding-left: 20px;
 }
 
 .extended-experience-period {
@@ -47,7 +47,7 @@
 .extended-experience-description {
     grid-area: description;
     max-width: 100%;
-    padding: 20rem;
+    padding: 20px;
     align-self: start;
 }
 
@@ -56,6 +56,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 0 6rem;
+    gap: 0 6px;
     height: 100%;
 }

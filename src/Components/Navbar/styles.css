@@ -1,13 +1,13 @@
 .navbar-desktop {
     font-family: var(--f-secundary);
     color: var(--c-m-white);
-    font-size: 12rem;
+    font-size: 12px;
 }
 
 ul {
     display: flex;
     align-items: center;
-    gap: 20rem;    
+    gap: 20px;    
 }
 
 .navbar-desktop-link {

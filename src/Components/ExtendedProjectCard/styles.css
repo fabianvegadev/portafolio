@@ -4,8 +4,8 @@
     background-color: var(--c-black-two);
     border-radius: var(--border-two);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    width: 740rem;
-    height: 350rem;
+    width: 740px;
+    height: 350px;
     color: var(--c-xxl-white);
 }
 
@@ -26,18 +26,18 @@
     display: flex;
     justify-content: center;
     position: relative;
-    width: 245rem;
-    height: 210rem;
+    width: 245px;
+    height: 210px;
 }
 
 .project-image-container span {
     position: absolute;
-    bottom: 4rem;
-    right: -16rem;
+    bottom: 4px;
+    right: -16px;
     z-index: 1;
-    font-size: 16rem;
+    font-size: 16px;
     font-weight: 500;
-    padding: 2rem 10rem;
+    padding: 2px 10px;
     border-radius: var(--border-one);
     background-color: var(--c-transparent-white);
     color: var(--c-xxl-black);
@@ -56,7 +56,7 @@
     justify-content: space-between;
     text-align: left;
     width: 60%;
-    padding: 20rem 20rem 20rem 0;
+    padding: 20px 20px 20px 0;
 }
 
 .project-description {
@@ -72,7 +72,7 @@
 .project-links {
     display: flex;
     justify-content: flex-end;
-    gap: 16rem;
+    gap: 16px;
 }
 
 .project-description::-webkit-scrollbar {

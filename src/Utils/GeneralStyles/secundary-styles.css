@@ -1,8 +1,8 @@
 .secundary-paragraph {
     width: 100%;
-    padding: 0 2rem;
-    margin-bottom: 12rem;
-    font-size: 16rem;
+    padding: 0 2px;
+    margin-bottom: 12px;
+    font-size: 16px;
     font-family: var(--f-secundary);
     color: var(--c-s-white);
 }
@@ -12,20 +12,20 @@
     align-items: center;
     justify-content: space-between;
     border-color: var(--c-s-white);
-    padding: 4rem 8rem;
+    padding: 4px 8px;
 }
 
 .secundary-button:active {
-    padding: 2rem 4rem;
-    margin: 2rem 4rem;
+    padding: 2px 4px;
+    margin: 2px 4px;
 }
 
 .navbar-projects-button {
-    font-size: 12rem;
-    padding: 12rem 20rem;
+    font-size: 12px;
+    padding: 12px 20px;
 }
 
 .navbar-projects-button:active {
-    padding: 8rem 16rem;
-    margin: 4rem 4rem;
+    padding: 8px 16px;
+    margin: 4px 4px;
 }

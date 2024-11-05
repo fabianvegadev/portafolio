@@ -3,13 +3,13 @@
     scroll-snap-align: center;
     flex-direction: column;
     justify-content: space-evenly;
-    min-width: 260rem;
-    max-width: 600rem;
-    height: 340rem;
+    min-width: 260px;
+    max-width: 600px;
+    height: 340px;
     border-radius: var(--border-one);
     background-color: var(--c-black-two);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    padding: 10rem;
+    padding: 10px;
 }
 
 .experience-time {
@@ -27,8 +27,8 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    font-size: 28rem;
-    gap: 0 10rem;
+    font-size: 28px;
+    gap: 0 10px;
     width: 100%;
     height: 30%;
 }

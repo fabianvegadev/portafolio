@@ -30,12 +30,12 @@ const ContactInfo = () => {
                 value='fabianvegadev@gmail.com' 
                 readOnly 
             />
-            <button onClick={copyEmail} className='contact-info-email-button'>
+            <button onClick={copyEmail} aria-label="email-copy" className='contact-info-email-button'>
                 <FaRegCopy size={15}/>
                 {copyMessage && <CheckMessage>{copyMessage}</CheckMessage>}
             </button>
 
-            <FaWhatsapp size={16} className="contact-info-whatsapp-icon"/>
+            <FaWhatsapp size={16} aria-label="whatsapp" className="contact-info-whatsapp-icon"/>
             <p className='contact-info-whatsapp-p'> +57 - 317 338 2026</p>
             <a href='https://wa.me/+573173382026' target='_blank'>
                 <button className='contact-info-whatsapp-button'><FaWhatsapp size={16}/></button>            

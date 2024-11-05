@@ -6,11 +6,11 @@ header {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    min-width: 320rem;
-    max-width: 1200rem;
+    min-width: 320px;
+    max-width: 1200px;
     margin: 0 auto;
-    height: 60rem;
-    padding: 8rem 16rem 10rem 32rem;
+    height: 60px;
+    padding: 8px 16px 10px 32px;
     background-color: black;
     border-radius: 0 0 var(--border-one) var(--border-one);
 }

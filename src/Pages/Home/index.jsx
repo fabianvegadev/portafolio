@@ -1,4 +1,4 @@
-import { primaryProjects } from '../../Data/PrimaryProjects';
+import { primaryProjects } from '../../Data/Projects';
 import { stackItems } from '../../Data/StackItems';
 import { experiences } from '../../Data/Experiences';
 import { paths } from '../../Routes/Paths';

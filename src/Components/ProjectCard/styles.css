@@ -2,9 +2,9 @@
     position: relative;
     scroll-snap-align: center;
     text-align: center;
-    width: 260rem;
-    min-width: 260rem;
-    height: 340rem;    
+    width: 260px;
+    min-width: 260px;
+    height: 340px;    
 }
 
 .project-card-container .face {
@@ -31,12 +31,12 @@
 
 .project-card-image-container span {
     position: absolute;
-    bottom: 8rem;
-    right: 8rem;
+    bottom: 8px;
+    right: 8px;
     z-index: 1;
-    font-size: 16rem;
+    font-size: 16px;
     font-weight: 500;
-    padding: 2rem 10rem;
+    padding: 2px 10px;
     border-radius: var(--border-one);
     background-color: var(--c-transparent-white);
     color: var(--c-xxl-black);
@@ -55,23 +55,23 @@
 
 .front h3 {
     position: absolute;
-    bottom: 114rem;
+    bottom: 114px;
     width: 100%;
 }
 
 .project-card-description {
     position: absolute;
-    bottom: 92rem;
-    font-size: 16rem;
+    bottom: 92px;
+    font-size: 16px;
     cursor: pointer;
     color: var(--c-xxl-white);
 }
 
 .return-icon {
     position: absolute;
-    bottom: 88rem;
+    bottom: 88px;
     color: var(--c-s-white);
-    font-size: 20rem;
+    font-size: 20px;
     cursor: pointer;
 }
 
@@ -85,21 +85,21 @@
 
 .front-tech-container {
     position: absolute;
-    bottom: 56rem;
+    bottom: 56px;
     display: flex;
     flex-wrap: wrap;
-    gap: 2rem;
+    gap: 2px;
     align-items: center;
     justify-content: space-around;
     width: 100%;
     border-radius: var(--border-one);
-    font-size: 16rem;
+    font-size: 16px;
     color: var(--c-xxl-white);
 }
 
 .buttons-container {
     position: absolute;
-    bottom: 16rem;
+    bottom: 16px;
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -109,7 +109,7 @@
     display: flex;
     justify-content: center;
     border-radius: var(--border-one);
-    box-shadow: 0 5rem 10rem var(--c-s-black);
+    box-shadow: 0 5px 10px var(--c-s-black);
     transform: rotateY(180deg);
 }
 
@@ -118,18 +118,18 @@
     top: 0;
     text-align: justify;
     max-height: 65%;
-    padding: 16rem 8rem;
+    padding: 16px 8px;
     overflow: scroll;
 }
 
 .description-link-ver-mas {
     position: absolute;
-    bottom: 92rem;
+    bottom: 92px;
 }
 
 .back h3 {
     position: absolute;
-    bottom: 48rem;
+    bottom: 48px;
 }
 
 .back-description::-webkit-scrollbar {

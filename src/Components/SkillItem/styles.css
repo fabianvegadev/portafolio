@@ -1,11 +1,11 @@
 .skill-item {
     text-align: center;  
-    width: 280rem;  
-    min-width: 260rem;
-    height: 340rem;
+    width: 280px;  
+    min-width: 260px;
+    height: 340px;
     max-height: 80%;
-    padding-top: 16rem;    
-    margin-bottom: 24rem;
+    padding-top: 16px;    
+    margin-bottom: 24px;
     border-radius: var(--border-one);
     background-color: var(--c-black-two);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -13,7 +13,7 @@
 
 .skill-item-description-container {
     max-height: 40%;
-    padding: 16rem 8rem;
+    padding: 16px 8px;
     text-align: justify;
     overflow: scroll;
 }
@@ -36,9 +36,9 @@
         grid-template-areas: 
             'title years'
             'levelChart description';
-        width: 740rem;
-        height: 200rem;
-        padding: 16rem 16rem 8rem 0;  
+        width: 740px;
+        height: 200px;
+        padding: 16px 16px 8px 0;  
     }
 
     .skill-item h3 {

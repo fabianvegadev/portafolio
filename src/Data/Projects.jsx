@@ -28,8 +28,8 @@ export const primaryProjects = [
         ],
         status: 'En desarrollo',
         description: 'Aplicación web interactiva creada con React.js para gestionar hábitos personales y mejorar la productividad. Incluye funcionalidades como el registro de hábitos, visualización de estadísticas y personalización de rutinas diarias. La interfaz está diseñada con HTML5 y CSS3, brindando una experiencia de usuario intuitiva y visualmente atractiva. Este proyecto explora la persistencia de datos en el navegador y la implementación de componentes reutilizables.',
-        linkGitHub: 'https://github.com/fabianvegadev/mustard-habit.app',
-        linkPreview: 'https://fabianvegadev.github.io/mustard-habit.app'
+        linkGitHub: 'https://github.com/fabianvegadev/app-mustard-habit',
+        linkPreview: 'https://fabianvegadev.github.io/app-mustard-habit'
     },
     {
         image: APIMustardHabit,

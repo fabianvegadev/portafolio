@@ -3,15 +3,15 @@
     z-index: 1;
     top: 50%;
     color: white;
-    font-size: 24rem;
+    font-size: 24px;
     cursor: pointer;
     transition: 0.4s;
 }
 .scroll-button.left {
-    left: 14rem;
+    left: 14px;
 }
 .scroll-button.right {
-    right: 14rem;
+    right: 14px;
 }
 .scroll-button.left:active {
     transform: translateX(-50%);

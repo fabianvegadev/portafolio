@@ -9,9 +9,9 @@
         'address address address';
     place-content: center;
     place-items: center;
-    gap: 8rem;
+    gap: 8px;
     width: 100%;
-    max-width: 320rem;
+    max-width: 320px;
 }
 
 .contact-info h3 {
@@ -26,7 +26,7 @@
 .contact-info-email-input {
     grid-area: email;
     justify-self: start;
-    font-size: 16rem;
+    font-size: 16px;
     color: var(--c-xxl-white);
     border: none;
     background-color: transparent;
@@ -48,7 +48,7 @@
     grid-area: phone;
     justify-self: start;
     text-align: start;
-    font-size: 16rem;
+    font-size: 16px;
 }
 
 .contact-info-whatsapp-writeme {
@@ -65,14 +65,14 @@
 }
 
 .contact-info-address p {
-    max-width: 160rem;
+    max-width: 160px;
 }
 
 .contact-info-email-button,
 .contact-info-whatsapp-button {
-    padding: 2rem 4rem 1rem;
-    width: 26rem;
-    height: 26rem;
+    padding: 2px 4px 1px;
+    width: 26px;
+    height: 26px;
     background-color: #28a745;
     color: var(--c-xxl-white);
     font-size: 12px;
@@ -89,8 +89,8 @@
 
 .contact-info-email-button:active,
 .contact-info-whatsapp-button:active {
-    width: 24rem;
-    height: 24rem;
-    padding: 1rem 3rem 1rem;
-    margin: 1rem;
+    width: 24px;
+    height: 24px;
+    padding: 1px 3px 1px;
+    margin: 1px;
 }
