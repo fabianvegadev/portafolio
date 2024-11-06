@@ -1,6 +1,5 @@
 import { Layout } from '../../Components/Layout';
 import { FaDownload } from 'react-icons/fa';
-import cv from '../../assets/cv/CV_Fabian_Velasquez_Portafolio.pdf';
 import './styles.css';
 
 const AboutMe = () => {
@@ -24,7 +23,7 @@ const AboutMe = () => {
                 <p className='aboutme-goal'>
                     Busco crecer en entornos donde la tecnología y la innovación convergen, trabajando con equipos apasionados para aportar soluciones que impacten de manera positiva.
                 </p>
-                <a href={cv} target='_blank'>
+                <a href='/CV/CV_Fabian_Velasquez_Portafolio.pdf' target='_blank'>
                     <button className='download-cv-button'><FaDownload /> Descargar CV</button>
                 </a>
             </div>
