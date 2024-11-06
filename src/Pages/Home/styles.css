@@ -4,7 +4,7 @@
     display: flex;
     align-items: center;
     gap: 20px;
-    width: 80%;
+    width: 84%;
     padding: 8px;
     margin: 0 auto;
     overflow-x: scroll;
@@ -15,7 +15,7 @@
 }
 
 .home-stack-items-container {
-    max-width: 940px;
+    max-width: 956px;
 }
 
 .home-project-cards-container,
