@@ -1,4 +1,4 @@
-import { BrowserRouter } from 'react-router-dom'
+import { HashRouter } from 'react-router-dom'
 import { MostroDevProvider } from '../Context';
 import { Header } from '../Components/Header';
 import { Routes } from '../Routes';
@@ -9,7 +9,7 @@ const App = () => {
 
   return (
     <MostroDevProvider>
-      <BrowserRouter>
+      <HashRouter>
         <div id='app'>
           <Header/>
           <main>
@@ -17,7 +17,7 @@ const App = () => {
           </main>
           <Footer/>
         </div>
-      </BrowserRouter>      
+      </HashRouter>      
     </MostroDevProvider>    
   )
 }
