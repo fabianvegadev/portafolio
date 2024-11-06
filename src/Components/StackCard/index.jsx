@@ -1,9 +1,9 @@
 import PropTypes from 'prop-types';
 import './styles.css';
 
-const StackItem = ({ title, icon, logos = [] }) => {
+const StackCard = ({ title, icon, logos = [] }) => {
     // Validación de tipos de propiedades
-    StackItem.propTypes = {
+    StackCard.propTypes = {
         title: PropTypes.string.isRequired,
         icon: PropTypes.element.isRequired,
         logos: PropTypes.arrayOf(PropTypes.element),
@@ -22,4 +22,4 @@ const StackItem = ({ title, icon, logos = [] }) => {
     )
 }
 
-export { StackItem };
+export { StackCard };

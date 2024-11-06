@@ -11,7 +11,7 @@
     margin-bottom: 40px;
 }
 
-.aboutme-description {
+.aboutme-description, .aboutme-interests, .aboutme-goal {
     text-align: justify;
     font-size: 16px;
     line-height: 1.2;

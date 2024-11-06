@@ -1,7 +1,7 @@
 import { Element } from 'react-scroll';
 import { Layout } from "../../Components/Layout";
 import { ScrollNav } from '../../Components/ScrollNav';
-import { SkillItem } from "../../Components/SkillItem";
+import { SkillItem } from '../../Components/SkillItem';
 import { frontendSkills, backendSkills, testingSkills, toolsSkills, languagesSkills, databasesSkills, softSkills } from "../../Data/SkillsData";
 import './styles.css'
 
@@ -14,7 +14,7 @@ const Skills = () => {
         { key:'tools', value:'Tools'},
         { key:'languajes', value:'Lenguajes'},
         { key:'databases', value:'Bases de datos'},
-        { key:'soft-skills', value:'Habilidades blandas'},
+        { key:'soft-skills', value:'Soft skills'},
     ]
 
 return (
@@ -69,7 +69,7 @@ return (
                 </div>
             </Element>
             <Element id='soft-skills'>
-                <h2>Habilidades blandas</h2>
+                <h2>Soft skills</h2>
                 <div className="skills-list">
                 {softSkills.map((skill, index) => (
                     <SkillItem key={index} {...skill}/>

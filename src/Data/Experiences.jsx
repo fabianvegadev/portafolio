@@ -4,7 +4,7 @@ export const experiences = [
         role: 'Automatizador Junior',
         period: 'Junio 2023 - Mayo 2024',
         time: '1 año',
-        description: 'Desarrollé, configuré y ejecuté pruebas automatizadas para verificar la funcionalidad de la interfaz de usuario y la comunicación del backend en una nueva aplicación implementada en los cajeros automáticos de Bancolombia a nivel nacional. Realicé consultas, modificaciones y eliminaciones de datos en entornos no productivos, gestionando los datos necesarios para ejecutar pruebas precisas y confiables. Colaboré estrechamente con los equipos de desarrollo y aseguramiento de calidad para optimizar el rendimiento y la eficacia de las pruebas.',
+        description: 'Automaticé pruebas clave para una aplicación de cajeros automáticos de Bancolombia, asegurando un funcionamiento óptimo en todo el país. Reduje los errores de la interfaz en un 15% a través de pruebas detalladas de UI y backend. Colaboré con desarrollo y aseguramiento de calidad, mejorando los tiempos de prueba en un 25% al optimizar los datos no productivos.',
         skills: ['Automatización de pruebas', 'Testing', 'Certificación ISTQB', 'Java', 'Selenium', 'Pensamiento crítico']
     },
     {
@@ -12,7 +12,7 @@ export const experiences = [
         role: 'Electricidad Automotriz',
         period: 'Junio 2021 - Mayo 2023',
         time: '2 años',
-        description: 'Ofrecí servicios de diagnóstico y reparación de sistemas eléctricos para vehículos y motocicletas, enfocándome en la solución de problemas complejos y en la atención personalizada al cliente. Administré de forma independiente cada proyecto, garantizando tiempos de entrega y calidad del servicio.',
+        description: 'Gestioné diagnósticos y reparaciones eléctricas para vehículos y motocicletas, logrando una tasa de satisfacción del cliente del 95%. Implementé un sistema de gestión de proyectos que mejoró la eficiencia en un 20%, cumpliendo con tiempos de entrega y estándares de calidad.',
         skills: ['Liderazgo', 'Electrónica automotriz', 'Resolución de problemas', 'Atención al cliente']
     },
     {
@@ -20,7 +20,7 @@ export const experiences = [
         role: 'Inspector Automotriz',
         period: 'Marzo 2018 - Mayo 2021',
         time: '3.2 años',
-        description: 'Inspeccioné y aseguré el correcto funcionamiento eléctrico y mecánico de vehículos en el parque automotor de Cúcuta, garantizando el cumplimiento de normativas legales. Diseñé y apliqué mejoras en el proceso de inspección visual, logrando reducir el tiempo de revisión en un 20%. Además, capacité a nuevo personal en los procedimientos de inspección, promoviendo un ambiente de trabajo colaborativo y eficiente.',
+        description: 'Optimicé el proceso de inspección automotriz, reduciendo el tiempo de revisión en un 20% y asegurando el cumplimiento de normativas legales. Capacité a 5 nuevos inspectores en procesos de inspección, creando un equipo colaborativo y eficiente.',
         skills: ['Liderazgo', 'Trabajo en equipo', 'Resiliencia', 'Capacitación y enseñanza']
     },
     {
@@ -28,7 +28,8 @@ export const experiences = [
         role: 'Vendedor sector Automotriz',
         period: '2010 - 2018',
         time: '8 años',
-        description: 'Realicé diagnósticos y reparaciones en sistemas eléctricos de vehículos y motocicletas, ofreciendo también servicios de venta de insumos eléctricos para el sector automotriz. Contribuí al desarrollo del personal nuevo mediante capacitaciones, impulsando un equipo de trabajo competente y orientado a la satisfacción del cliente.',
+        description: 'Aumenté las ventas de insumos eléctricos en un 30% al mejorar la atención personalizada y capacitar al equipo en técnicas de venta y diagnóstico. Logré fidelizar clientes, impulsando la satisfacción del cliente en un 90%.',
         skills: ['Ventas', 'Trabajo en equipo', 'Electricidad automotriz', 'Capacitación y enseñanza']
     },
 ];
+

@@ -5,7 +5,7 @@ import { paths } from '../../Routes/Paths';
 import { CustomLink } from '../../Components/CustomLink';
 import { HomeAboutMe } from '../../Components/HomeAboutMe';
 import { ProjectCard } from '../../Components/ProjectCard';
-import { StackItem } from '../../Components/StackItem';
+import { StackCard } from '../../Components/StackCard';
 import { ExperienceCard } from '../../Components/ExperienceCard';
 import { ContactInfo } from '../../Components/ContactInfo';
 import { ContactForm } from '../../Components/ContactForm';
@@ -63,7 +63,7 @@ const Home = () => {
                 )}
                 <div className="home-stack-items-container" ref={stackContainerRef}>
                     {stackItems.map((item, index) => (
-                        <StackItem key={index} {...item} />
+                        <StackCard key={index} {...item} />
                     ))}
                 </div>
                 {stackScrollState.showRightButton && (
