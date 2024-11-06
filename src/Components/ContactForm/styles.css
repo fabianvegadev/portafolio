@@ -9,7 +9,7 @@
     padding: 12px;
     margin: 8px 0;
     border-radius: var(--border-three);
-    border: 1px solid #555;
+    border: 1px solid var(--c-m-black);
     background-color: #1a1a1a;
     color: #fff;
     font-size: 16px;

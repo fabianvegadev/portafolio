@@ -5,11 +5,13 @@
     justify-content: space-evenly;
     min-width: 260px;
     max-width: 600px;
-    height: 340px;
+    height: 380px;
     border-radius: var(--border-one);
+    border: solid 1px var(--c-m-black); 
     background-color: var(--c-black-two);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    padding: 10px;
+    padding: 16px 8px;
+
 }
 
 .experience-time {

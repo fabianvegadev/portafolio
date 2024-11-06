@@ -3,7 +3,7 @@
 .home-experience-cards-container {
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 20px;
     width: 80%;
     padding: 8px;
     margin: 0 auto;
@@ -20,7 +20,7 @@
 
 .home-project-cards-container,
 .home-experience-cards-container {
-    max-width: 820px;
+    max-width: 836px;
 }
 
 .home-stack-items-container::-webkit-scrollbar,

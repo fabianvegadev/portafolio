@@ -21,24 +21,24 @@ const ProjectCard = ({image, title, techs, description, status, linkGitHub, link
                         {status !== '' && <span>{status}</span>}
                         <img src={image} alt='mustard-habit'/>
                 </figure>
+                <div className="front-detail-container">
                     <h3><strong>{title}</strong></h3>     
                     {context.isMobile && 
-                        <u onClick={() => handleDescriptionClick()}
-                        className='project-card-description'>Descripción</u>}                
-                <div className="front-detail-container">
+                    <u onClick={() => handleDescriptionClick()}
+                    className='project-card-description'>Descripción</u>}                
                     <ul className="front-tech-container">
                         {techs.map((tech, index) => (
                             <li key={index} className='skills'>{tech}</li>
                         ))}
                     </ul>
-                    <div className='buttons-container'>
-                        <a href={linkGitHub} target='_blank'>
-                            <button className='secundary-button'><LuGithub size={14}/> view code</button>
-                        </a>
-                        <a href={linkPreview} target='_blank'>
-                            <button className='secundary-button'><LuLink size={14}/> live demo</button>
-                        </a>
-                    </div>
+                </div>
+                <div className='buttons-container'>
+                    <a href={linkGitHub} target='_blank'>
+                        <button className='secundary-button'><LuGithub size={14}/> view code</button>
+                    </a>
+                    <a href={linkPreview} target='_blank'>
+                        <button className='secundary-button'><LuLink size={14}/> live demo</button>
+                    </a>
                 </div>
             </div>
             <div className='face back'>
