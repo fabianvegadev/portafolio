@@ -21,7 +21,7 @@ export const experiences = [
         period: 'Marzo 2018 - Mayo 2021',
         time: '3.2 años',
         description: 'Optimicé el proceso de inspección automotriz, reduciendo el tiempo de revisión en un 20% y asegurando el cumplimiento de normativas legales. Capacité a 5 nuevos inspectores en procesos de inspección, creando un equipo colaborativo y eficiente.',
-        skills: ['Liderazgo', 'Trabajo en equipo', 'Resiliencia', 'Capacitación y enseñanza']
+        skills: ['Liderazgo', 'Trabajo en equipo', 'Resiliencia', 'Capacitación y enseñanza', 'Pensamiento crítico']
     },
     {
         company: 'Empresas familiares',
@@ -29,7 +29,7 @@ export const experiences = [
         period: '2010 - 2018',
         time: '8 años',
         description: 'Aumenté las ventas de insumos eléctricos en un 30% al mejorar la atención personalizada y capacitar al equipo en técnicas de venta y diagnóstico. Logré fidelizar clientes, impulsando la satisfacción del cliente en un 90%.',
-        skills: ['Ventas', 'Trabajo en equipo', 'Electricidad automotriz', 'Capacitación y enseñanza']
+        skills: ['Ventas', 'Trabajo en equipo', 'Electricidad automotriz', 'Capacitación y enseñanza', 'Atención al cliente']
     },
 ];
 

@@ -16,6 +16,7 @@
 }
 
 .project-card-container .front {
+    z-index: 1;
     display: flex;
     justify-content: center;
     border-radius: var(--border-one);
