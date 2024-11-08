@@ -56,7 +56,7 @@ const Home = () => {
                 </CustomLink>
             </Layout>
 
-            <Layout className="section-stack-items">
+            <Layout>
                 <h2>Stack</h2>
                 {stackScrollState.showLeftButton && (
                     <ScrollButton direction="left" handleScroll={handleStackScroll} />

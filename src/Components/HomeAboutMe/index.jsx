@@ -1,4 +1,3 @@
-import { Layout } from '../Layout';
 import { SocialLinks } from '../SocialLinks';
 import { CustomLink } from '../CustomLink';
 import { paths } from '../../Routes/Paths';
@@ -8,7 +7,7 @@ import './styles.css';
 const HomeAboutMe = () => {
 
     return (
-        <Layout className='section-home-about-me-container'>
+        <section className='section-home-about-me-container'>
             <figure className='work-image-container'>
                 <img src={Foto} alt='Foto' />
                 <SocialLinks className='home-about-me-social-links'/>
@@ -23,7 +22,7 @@ const HomeAboutMe = () => {
                         </button>
                 </CustomLink>
             </div>
-        </Layout>
+        </section>
     )
 }
 

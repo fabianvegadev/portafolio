@@ -8,7 +8,7 @@ const Layout = ({children, className}) => {
     };
     return (
         <>
-            <section className={`layout ${className}`}>
+            <section className={`${className ? className : ''}`.trim()}>
                 {children}
             </section>
         </>

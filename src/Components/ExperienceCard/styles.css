@@ -3,6 +3,7 @@
     scroll-snap-align: center;
     flex-direction: column;
     justify-content: space-evenly;
+    width: 80%;
     min-width: 260px;
     max-width: 600px;
     min-height: 380px;
