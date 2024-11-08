@@ -4,7 +4,7 @@
     margin: 0;
 }
 body {
-    background: linear-gradient(30deg, var(--c-black) 50%, var(--c-gold) 450%);
+    background: var(--c-black);
 }
 html {
     font-size: 6.25%;

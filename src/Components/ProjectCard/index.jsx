@@ -42,12 +42,12 @@ const ProjectCard = ({image, title, techs, description, status, linkGitHub, link
                 </div>
             </div>
             <div className='face back'>
+                <h3>{title}</h3>            
                 <div className='back-description'>
                     <p className='secundary-paragraph'>{description}</p>
                 </div> 
                 {context.isMobile && 
                     <HiArrowUturnRight onClick={() => handleDescriptionClick()} className='return-icon'/>}                
-                <h3>{title}</h3>            
                     <div className='buttons-container'>
                         <a href={linkGitHub} target='_blank'>
                             <button className='secundary-button'><LuGithub size={15}/> Project</button>

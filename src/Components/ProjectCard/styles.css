@@ -72,14 +72,6 @@
     color: var(--c-xxl-white);
 }
 
-.return-icon {
-    position: absolute;
-    bottom: 88px;
-    color: var(--c-s-white);
-    font-size: 20px;
-    cursor: pointer;
-}
-
 .project-card-container.is-flipped .front {
     transform: rotateY(180deg);
 }
@@ -118,23 +110,26 @@
     transform: rotateY(180deg);
 }
 
+.back h3 {
+    position: absolute;
+    top: 16px;
+}
+
 .back-description {
     position: absolute;
-    top: 0;
+    top: 44px;
     text-align: justify;
     max-height: 65%;
-    padding: 16px 8px;
+    padding: 16px 12px;
     overflow: scroll;
 }
 
-.description-link-ver-mas {
+.return-icon {
     position: absolute;
-    bottom: 92px;
-}
-
-.back h3 {
-    position: absolute;
-    bottom: 56px;
+    bottom: 52px;
+    color: var(--c-s-white);
+    font-size: 20px;
+    cursor: pointer;
 }
 
 .back-description::-webkit-scrollbar {

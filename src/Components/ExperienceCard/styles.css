@@ -11,7 +11,6 @@
     background-color: var(--c-black-two);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     padding: 16px 8px;
-
 }
 
 .experience-time {
