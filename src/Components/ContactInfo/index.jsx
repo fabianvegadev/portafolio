@@ -35,10 +35,10 @@ const ContactInfo = () => {
                 {copyMessage && <CheckMessage>{copyMessage}</CheckMessage>}
             </button>
 
-            <FaWhatsapp size={16} aria-label="whatsapp" className="contact-info-whatsapp-icon"/>
+            <FaWhatsapp size={16} className="contact-info-whatsapp-icon"/>
             <p className='contact-info-whatsapp-p'> +57 - 317 338 2026</p>
             <a href='https://wa.me/+573173382026' target='_blank'>
-                <button className='contact-info-whatsapp-button'><FaWhatsapp size={16}/></button>            
+                <button className='contact-info-whatsapp-button' aria-label="whatsapp"><FaWhatsapp size={16}/></button>            
             </a>
 
             <div className="contact-info-address">
