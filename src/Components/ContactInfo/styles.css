@@ -1,96 +1,96 @@
 .contact-info {
-    display: grid;
-    grid-template-columns: 10% 80% 10%;
-    grid-template-rows: 40% 20% 20% 20%;
-    grid-template-areas: 
-        'title title title'
-        'gmail email copy'
-        'whatsapp phone writeme'
-        'address address address';
-    place-content: center;
-    place-items: center;
-    gap: 8px;
-    width: 100%;
-    max-width: 320px;
+	display: grid;
+	grid-template-columns: 10% 80% 10%;
+	grid-template-rows: 40% 20% 20% 20%;
+	grid-template-areas:
+		"title title title"
+		"gmail email copy"
+		"whatsapp phone writeme"
+		"address address address";
+	place-content: center;
+	place-items: center;
+	gap: 8px;
+	width: 100%;
+	max-width: 320px;
 }
 
 .contact-info h3 {
-    grid-area: title;
+	grid-area: title;
 }
 
 .contact-info-email-icon {
-    grid-area: gmail;
-    color: var(--c-xxl-white);
+	grid-area: gmail;
+	color: var(--c-xxl-white);
 }
 
 .contact-info-email-input {
-    grid-area: email;
-    justify-self: start;
-    font-size: 16px;
-    color: var(--c-xxl-white);
-    border: none;
-    background-color: transparent;
-    font-family: var(--f-secundary);
-    width: 100%;
+	grid-area: email;
+	justify-self: start;
+	font-size: 16px;
+	color: var(--c-xxl-white);
+	border: none;
+	background-color: transparent;
+	font-family: var(--f-secundary);
+	width: 100%;
 }
 
 .contact-info-email-button {
-    grid-area: copy;
-    text-align: center;
+	grid-area: copy;
+	text-align: center;
 }
 
 .contact-info-whatsapp-icon {
-    grid-area: whatsapp;
-    color: var(--c-xxl-white);
+	grid-area: whatsapp;
+	color: var(--c-xxl-white);
 }
 
 .contact-info-whatsapp-p {
-    grid-area: phone;
-    justify-self: start;
-    text-align: start;
-    font-size: 16px;
+	grid-area: phone;
+	justify-self: start;
+	text-align: start;
+	font-size: 16px;
 }
 
 .contact-info-whatsapp-writeme {
-    grid-area: writeme;
+	grid-area: writeme;
 }
 
 .contact-info-address {
-    grid-area: address;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--c-xxl-white);
-    width: 100%;
+	grid-area: address;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: var(--c-xxl-white);
+	width: 100%;
 }
 
 .contact-info-address p {
-    max-width: 160px;
+	max-width: 160px;
 }
 
 .contact-info-email-button,
 .contact-info-whatsapp-button {
-    padding: 2px 4px 1px;
-    width: 26px;
-    height: 26px;
-    background-color: #28a745;
-    color: var(--c-xxl-white);
-    font-size: 12px;
-    border: none;
-    border-radius: var(--border-three);
-    cursor: pointer;
-    transition: background-color 0.3s;
+	padding: 2px 4px 1px;
+	width: 26px;
+	height: 26px;
+	background-color: #28a745;
+	color: var(--c-xxl-white);
+	font-size: 12px;
+	border: none;
+	border-radius: var(--border-three);
+	cursor: pointer;
+	transition: background-color 0.3s;
 }
 
 .contact-info-email-button:hover,
 .contact-info-whatsapp-button:hover {
-    background-color: #218838;
+	background-color: #218838;
 }
 
 .contact-info-email-button:active,
 .contact-info-whatsapp-button:active {
-    width: 24px;
-    height: 24px;
-    padding: 1px 3px 1px;
-    margin: 1px;
+	width: 24px;
+	height: 24px;
+	padding: 1px 3px 1px;
+	margin: 1px;
 }

@@ -1,10 +1,10 @@
 .default {
-    font-family: var(--f-secundary);
-    font-weight: 300;
-    font-size: 14px;
-    color: var(--c-xxl-white);
+	font-family: var(--f-secundary);
+	font-weight: 300;
+	font-size: 14px;
+	color: var(--c-xxl-white);
 }
 
 .active {
-    text-decoration: underline;
+	text-decoration: underline;
 }

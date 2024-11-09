@@ -1,62 +1,62 @@
 .extended-experience-card {
-    display: grid;
-    grid-template-columns: 70% 30%;
-    grid-template-rows: 28px 24px auto 60px;
-    grid-template-areas: 
-        'role time'
-        'company period'
-        'description description'
-        'skills skills';
-    text-align: left;
-    align-items: center;
-    width: 100%;
-    max-width: 740px;
-    height: auto;
-    padding: 16px;
-    border-radius: var(--border-one);
-    border: solid 1px var(--c-m-black); 
-    background-color: var(--c-black-two);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+	display: grid;
+	grid-template-columns: 70% 30%;
+	grid-template-rows: 28px 24px auto 60px;
+	grid-template-areas:
+		"role time"
+		"company period"
+		"description description"
+		"skills skills";
+	text-align: left;
+	align-items: center;
+	width: 100%;
+	max-width: 740px;
+	height: auto;
+	padding: 16px;
+	border-radius: var(--border-one);
+	border: solid 1px var(--c-m-black);
+	background-color: var(--c-black-two);
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .extended-experience-card:hover {
-    transform: translateY(-8px);
-    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.5);
+	transform: translateY(-8px);
+	box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.5);
 }
 
 .extended-experience-card h3 {
-    grid-area: role;
-    padding-left: 20px;
+	grid-area: role;
+	padding-left: 20px;
 }
 
 .extended-experience-card h4 {
-    grid-area: company;
-    padding-left: 20px;
+	grid-area: company;
+	padding-left: 20px;
 }
 
 .extended-experience-period {
-    grid-area: period;
-    text-align: right;
+	grid-area: period;
+	text-align: right;
 }
 
 .extended-experience-time {
-    grid-area: time;
-    text-align: right;
-    font-weight: 700;
+	grid-area: time;
+	text-align: right;
+	font-weight: 700;
 }
 
 .extended-experience-description {
-    grid-area: description;
-    max-width: 100%;
-    padding: 20px;
-    align-self: start;
+	grid-area: description;
+	max-width: 100%;
+	padding: 20px;
+	align-self: start;
 }
 
 .extended-experience-skills {
-    grid-area: skills;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 0 6px;
-    height: 100%;
+	grid-area: skills;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 0 6px;
+	height: 100%;
 }

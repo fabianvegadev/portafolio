@@ -1,30 +1,30 @@
 .home-stack-items-container,
 .home-project-cards-container,
 .home-experience-cards-container {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    width: 84%;
-    padding: 8px;
-    margin: 0 auto;
-    overflow-x: scroll;
-    overscroll-behavior-x: contain;
-    scroll-snap-type: x proximity;
-    scroll-behavior: smooth;
-    transition: 2s;
+	display: flex;
+	align-items: center;
+	gap: 20px;
+	width: 84%;
+	padding: 8px;
+	margin: 0 auto;
+	overflow-x: scroll;
+	overscroll-behavior-x: contain;
+	scroll-snap-type: x proximity;
+	scroll-behavior: smooth;
+	transition: 2s;
 }
 
 .home-stack-items-container {
-    max-width: 956px;
+	max-width: 956px;
 }
 
 .home-project-cards-container,
 .home-experience-cards-container {
-    max-width: 836px;
+	max-width: 836px;
 }
 
 .home-stack-items-container::-webkit-scrollbar,
 .home-project-cards-container::-webkit-scrollbar,
-.home-experience-cards-container::-webkit-scrollbar  {
-    display: none;
+.home-experience-cards-container::-webkit-scrollbar {
+	display: none;
 }

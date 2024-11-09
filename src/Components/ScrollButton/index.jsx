@@ -1,26 +1,26 @@
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
-import './styles.css';
+import "./styles.css";
 
 const ScrollButton = ({ direction, handleScroll }) => {
-    const handleClick = () => {
-        handleScroll(direction); // Llama a handleScroll con la dirección correcta
-    };
+	const handleClick = () => {
+		handleScroll(direction);
+	};
 
-    return (
-        <>
-            {direction === 'left' ? (
-                <FaChevronLeft onClick={handleClick} className="scroll-button left" />
-            ) : (
-                <FaChevronRight onClick={handleClick} className="scroll-button right" />
-            )}
-        </>
-    );
+	return (
+		<>
+			{direction === "left" ? (
+				<FaChevronLeft onClick={handleClick} className="scroll-button left" />
+			) : (
+				<FaChevronRight onClick={handleClick} className="scroll-button right" />
+			)}
+		</>
+	);
 };
 
 ScrollButton.propTypes = {
-    direction: PropTypes.string.isRequired,
-    handleScroll: PropTypes.func.isRequired,
+	direction: PropTypes.string.isRequired,
+	handleScroll: PropTypes.func.isRequired,
 };
 
 export { ScrollButton };

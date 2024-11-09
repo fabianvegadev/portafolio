@@ -1,23 +1,23 @@
 header {
-    position: fixed;
-    top: 0;
-    z-index: 30;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    min-width: 320px;
-    max-width: 1200px;
-    margin: 0 auto;
-    height: 60px;
-    padding: 8px 16px 10px 32px;
-    background-color: black;
-    border-radius: 0 0 var(--border-one) var(--border-one);
+	position: fixed;
+	top: 0;
+	z-index: 30;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	min-width: 320px;
+	max-width: 1200px;
+	margin: 0 auto;
+	height: 60px;
+	padding: 8px 16px 10px 32px;
+	background-color: black;
+	border-radius: 0 0 var(--border-one) var(--border-one);
 }
 
 .header-logo-container {
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    width: 120px;
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	width: 120px;
 }

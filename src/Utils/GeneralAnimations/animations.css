@@ -1,17 +1,17 @@
 .animation {
-    animation: animacion-side-menu 0.2s ease-in forwards;
+	animation: animacion-side-menu 0.2s ease-in forwards;
 }
 
 @keyframes animacion-side-menu {
-    0%{
-        width: 0%;
-        color: transparent;
-    }
-    80%{
-        color: transparent;
-    }
-    100%{
-        width: 100%;
-        color: black
-    }
+	0% {
+		width: 0%;
+		color: transparent;
+	}
+	80% {
+		color: transparent;
+	}
+	100% {
+		width: 100%;
+		color: black;
+	}
 }

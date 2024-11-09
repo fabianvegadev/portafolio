@@ -1,81 +1,81 @@
 .extended-project-card {
-    display: flex;
-    justify-content: space-between;
-    background-color: var(--c-black-two);
-    border-radius: var(--border-two);
-    border: solid 1px var(--c-m-black); 
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    width: 740px;
-    height: 350px;
-    color: var(--c-xxl-white);
+	display: flex;
+	justify-content: space-between;
+	background-color: var(--c-black-two);
+	border-radius: var(--border-two);
+	border: solid 1px var(--c-m-black);
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+	width: 740px;
+	height: 350px;
+	color: var(--c-xxl-white);
 }
 
 .extended-project-card:hover {
-    transform: translateY(-8px);
-    box-shadow: var(--shadow-two);
+	transform: translateY(-8px);
+	box-shadow: var(--shadow-two);
 }
 
 .project-left-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 40%;
-    height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 40%;
+	height: 100%;
 }
 
 .project-image-container {
-    display: flex;
-    justify-content: center;
-    position: relative;
-    width: 245px;
-    height: 210px;
+	display: flex;
+	justify-content: center;
+	position: relative;
+	width: 245px;
+	height: 210px;
 }
 
 .project-image-container span {
-    position: absolute;
-    bottom: 4px;
-    right: -16px;
-    z-index: 1;
-    font-size: 16px;
-    font-weight: 500;
-    padding: 2px 10px;
-    border-radius: var(--border-one);
-    background-color: var(--c-transparent-white);
-    color: var(--c-xxl-black);
+	position: absolute;
+	bottom: 4px;
+	right: -16px;
+	z-index: 1;
+	font-size: 16px;
+	font-weight: 500;
+	padding: 2px 10px;
+	border-radius: var(--border-one);
+	background-color: var(--c-transparent-white);
+	color: var(--c-xxl-black);
 }
 
 .project-image-container img {
-    position: absolute;
-    width: 120%;
-    left: -8%;
-    top: 4%;
+	position: absolute;
+	width: 120%;
+	left: -8%;
+	top: 4%;
 }
 
 .project-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    text-align: left;
-    width: 60%;
-    padding: 20px 20px 20px 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	text-align: left;
+	width: 60%;
+	padding: 20px 20px 20px 0;
 }
 
 .project-description {
-    max-height: 80%;
-    overflow: scroll;
+	max-height: 80%;
+	overflow: scroll;
 }
 
 .project-tech {
-    color: #aaa;
-    margin-bottom: 15px;
+	color: #aaa;
+	margin-bottom: 15px;
 }
 
 .project-links {
-    display: flex;
-    justify-content: flex-end;
-    gap: 16px;
+	display: flex;
+	justify-content: flex-end;
+	gap: 16px;
 }
 
 .project-description::-webkit-scrollbar {
-    display: none;    
+	display: none;
 }

@@ -1,34 +1,36 @@
 .aboutme-page {
-    color: var(--c-xxl-white);
-    padding: 16px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    min-height: 100vh;
+	color: var(--c-xxl-white);
+	padding: 16px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	min-height: 100vh;
 }
 
 .aboutme-container {
-    margin-bottom: 40px;
+	margin-bottom: 40px;
 }
 
-.aboutme-description, .aboutme-interests, .aboutme-goal {
-    text-align: justify;
-    font-size: 16px;
-    line-height: 1.2;
-    max-width: 90%;
-    margin: 20px auto ;
+.aboutme-description,
+.aboutme-interests,
+.aboutme-goal {
+	text-align: justify;
+	font-size: 16px;
+	line-height: 1.2;
+	max-width: 90%;
+	margin: 20px auto;
 }
 
 .download-cv-button {
-    padding: 10px 20px;
-    background-color: #4caf50;
-    color: var(--c-xxl-white);
-    border: none;
-    border-radius: var(--border-three);
-    cursor: pointer;
-    transition: background-color 0.3s;
+	padding: 10px 20px;
+	background-color: #4caf50;
+	color: var(--c-xxl-white);
+	border: none;
+	border-radius: var(--border-three);
+	cursor: pointer;
+	transition: background-color 0.3s;
 }
 
 .download-cv-button:hover {
-    background-color: #45a049;
+	background-color: #45a049;
 }

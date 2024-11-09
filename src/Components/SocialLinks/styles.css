@@ -1,20 +1,20 @@
 .social-links {
-    display: flex;
-    justify-content: center;
-    gap: 16px;
-    margin: 16px;
+	display: flex;
+	justify-content: center;
+	gap: 16px;
+	margin: 16px;
 }
 
 .social-links a {
-    color: #ccc;
-    font-size: 24px;
-    transition: color 0.3s;
+	color: #ccc;
+	font-size: 24px;
+	transition: color 0.3s;
 }
 
 .social-links a:hover {
-    color: var(--c-gold);
+	color: var(--c-gold);
 }
 
 .contact-info h3 {
-    color: var(--c-gold);
+	color: var(--c-gold);
 }

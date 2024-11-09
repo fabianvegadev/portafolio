@@ -1,69 +1,69 @@
 .skill-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 90%;
-    max-width: 600px;
-    padding: 16px;
-    border-radius: var(--border-two);
-    border: solid 1px var(--c-m-black); 
-    background-color: var(--c-black-two);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 90%;
+	max-width: 600px;
+	padding: 16px;
+	border-radius: var(--border-two);
+	border: solid 1px var(--c-m-black);
+	background-color: var(--c-black-two);
 }
 
 .skill-item-down-container {
-    display: flex;
-    align-items: center;
-    width: 100%;
+	display: flex;
+	align-items: center;
+	width: 100%;
 }
 
 .skill-item-title-container {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    text-align: start;
+	display: flex;
+	align-items: center;
+	width: 100%;
+	text-align: start;
 }
 
 .skill-icon {
-    width: 24px;
-    height: 24px;
-    font-size: 24px;
-    color: var(--c-gray);
+	width: 24px;
+	height: 24px;
+	font-size: 24px;
+	color: var(--c-gray);
 }
 
 .skill-item-title-container h4 {
-    margin-left: 8px ;
+	margin-left: 8px;
 }
 
 .down-icon {
-    transition: 0.5s;
-    font-size: 20px;
-    color: var(--c-xxl-white);
+	transition: 0.5s;
+	font-size: 20px;
+	color: var(--c-xxl-white);
 }
 
 .down-icon__active {
-    transition: 0.5s;
-    font-size: 20px;
-    margin-top: 6px;
-    color: var(--c-xxl-white);
-    transform: rotateX(180deg);
+	transition: 0.5s;
+	font-size: 20px;
+	margin-top: 6px;
+	color: var(--c-xxl-white);
+	transform: rotateX(180deg);
 }
 
 .skill-item-description {
-    max-height: 0;
-    overflow: hidden;
-    text-align: justify;    
-    font-family: var(--f-secundary);
-    color: var(--c-s-white);
-    opacity: 0;
-    transition: max-height 0.3s ease, opacity 0.3s ease;
+	max-height: 0;
+	overflow: hidden;
+	text-align: justify;
+	font-family: var(--f-secundary);
+	color: var(--c-s-white);
+	opacity: 0;
+	transition: max-height 0.3s ease, opacity 0.3s ease;
 }
 
 .skill-item-description__active {
-    max-height: 200px;
-    text-align: justify;
-    font-family: var(--f-secundary);
-    color: var(--c-s-white);
-    opacity: 1;
-    transition: max-height 0.3s ease, opacity 0.3s ease;
+	max-height: 200px;
+	text-align: justify;
+	font-family: var(--f-secundary);
+	color: var(--c-s-white);
+	opacity: 1;
+	transition: max-height 0.3s ease, opacity 0.3s ease;
 }

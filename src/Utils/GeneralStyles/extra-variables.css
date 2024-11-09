@@ -1,19 +1,19 @@
 :root {
-    /* Bordes */
-    --border-one: 12px;
-    --border-two: 8px;
-    --border-three: 4px;
+	/* Bordes */
+	--border-one: 12px;
+	--border-two: 8px;
+	--border-three: 4px;
 
-    /* Gaps */
-    --gap-cards: 12px;
+	/* Gaps */
+	--gap-cards: 12px;
 
-    /* Widths */
-    --width-cads: 260px;
+	/* Widths */
+	--width-cads: 260px;
 
-    /* Heights */
-    --height-cards: 280px;
+	/* Heights */
+	--height-cards: 280px;
 
-    /* Shadows */
-    --shadow-one: 0 5px 10px var(--c-s-black);
-    --shadow-two: 0px 8px 24px rgba(0, 0, 0, 0.5);
+	/* Shadows */
+	--shadow-one: 0 5px 10px var(--c-s-black);
+	--shadow-two: 0px 8px 24px rgba(0, 0, 0, 0.5);
 }

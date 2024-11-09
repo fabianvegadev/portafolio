@@ -1,31 +1,31 @@
 .secundary-paragraph {
-    width: 100%;
-    padding: 0 8px;
-    margin-bottom: 12px;
-    font-size: 16px;
-    font-family: var(--f-secundary);
-    color: var(--c-s-white);
+	width: 100%;
+	padding: 0 8px;
+	margin-bottom: 12px;
+	font-size: 16px;
+	font-family: var(--f-secundary);
+	color: var(--c-s-white);
 }
 
 .secundary-button {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border-color: var(--c-s-white);
-    padding: 4px 8px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-color: var(--c-s-white);
+	padding: 4px 8px;
 }
 
 .secundary-button:active {
-    padding: 2px 4px;
-    margin: 2px 4px;
+	padding: 2px 4px;
+	margin: 2px 4px;
 }
 
 .navbar-projects-button {
-    font-size: 12px;
-    padding: 12px 20px;
+	font-size: 12px;
+	padding: 12px 20px;
 }
 
 .navbar-projects-button:active {
-    padding: 8px 16px;
-    margin: 4px 4px;
+	padding: 8px 16px;
+	margin: 4px 4px;
 }
