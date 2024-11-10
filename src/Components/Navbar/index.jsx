@@ -1,7 +1,6 @@
 import { CustomLink } from "../CustomLink";
 import { paths } from "../../Routes/Paths";
 import { FaDownload } from "react-icons/fa";
-// import cv from "../../assets/CV/CV_Fabian_Velasquez_Portafolio.pdf";
 import "../../Utils/GeneralStyles/secundary-styles.css";
 import "./styles.css";
 
