@@ -4,11 +4,6 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	min-height: 100vh;
-}
-
-.aboutme-container {
-	margin-bottom: 40px;
 }
 
 .aboutme-description,
@@ -29,6 +24,7 @@
 	border-radius: var(--border-three);
 	cursor: pointer;
 	transition: background-color 0.3s;
+	margin-bottom: 20px;
 }
 
 .download-cv-button:hover {

@@ -21,7 +21,11 @@ const AboutMe = () => {
 					portafolio y una tienda en línea en React, afianzando mis habilidades
 					en este framework y explorando nuevas tecnologías.
 				</p>
-
+				<a href="/CV/CV_Fabian_Velasquez_Portafolio.pdf" target="_blank">
+					<button className="download-cv-button">
+						<FaDownload /> Descargar CV
+					</button>
+				</a>
 				<h3>Intereses Personales</h3>
 				<p className="aboutme-interests">
 					Más allá del trabajo, disfruto de los <b>viajes en moto</b>, la{" "}
@@ -36,11 +40,6 @@ const AboutMe = () => {
 					convergen, trabajando con equipos apasionados para aportar soluciones
 					que impacten de manera positiva.
 				</p>
-				<a href="/CV/CV_Fabian_Velasquez_Portafolio.pdf" target="_blank">
-					<button className="download-cv-button">
-						<FaDownload /> Descargar CV
-					</button>
-				</a>
 			</div>
 		</Layout>
 	);
