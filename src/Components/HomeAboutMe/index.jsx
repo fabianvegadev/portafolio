@@ -1,7 +1,7 @@
 import { SocialLinks } from "../SocialLinks";
 import { CustomLink } from "../CustomLink";
 import { paths } from "../../Routes/Paths";
-import Foto from "../../assets/Logo/foto.png";
+import Foto from "../../assets/ProfessionalImage.png";
 import "./styles.css";
 
 const HomeAboutMe = () => {
