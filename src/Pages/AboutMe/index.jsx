@@ -8,7 +8,7 @@ const AboutMe = () => {
 			<div className="aboutme-container">
 				<h2>Sobre Mí</h2>
 				<p className="aboutme-description">
-					Soy Fabián Velásquez, <b>desarrollador web</b> enfocado en crear
+					Soy Fabian Velasquez, <b>desarrollador web</b> enfocado en crear
 					soluciones funcionales y de calidad. Mi objetivo es consolidarme como
 					un experto en <b>desarrollo frontend</b>, aportando valor a proyectos
 					innovadores y enriqueciendo mis conocimientos en entornos
