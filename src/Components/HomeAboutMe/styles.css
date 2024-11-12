@@ -8,6 +8,10 @@
 	margin-top: 8px;
 }
 
+.work-image-container img {
+	border-radius: 50%;
+}
+
 .text-container {
 	width: 80%;
 	min-width: 320px;
@@ -26,7 +30,7 @@
 @media (min-width: 851px) {
 	.section-home-about-me-container {
 		display: grid;
-		grid-template-columns: 60% 40%;
+		grid-template-columns: 50% 30%;
 		grid-template-rows: 100%;
 		place-content: center;
 		place-items: center;
@@ -44,7 +48,6 @@
 		justify-items: start;
 		align-content: space-around;
 		text-align: start;
-		padding-left: 48px;
 		width: 524px;
 		height: 334px;
 	}
