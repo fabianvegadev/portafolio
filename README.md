@@ -4,9 +4,9 @@ Bienvenido a mi portafolio web, desarrollado para presentar mis habilidades, pro
 
 ## Capturas de Pantalla
 
-| ![Captura 1](./src/assets/ScreenShots/1.png) | ![Captura 2](./src/assets/ScreenShots/2.png) |
-| -------------------------------------------- | -------------------------------------------- |
-| **Pantalla principal**                       | **Scroll de proyectos**                      |
+| ![Captura 1](./src/assets/ScreenShots/1.png) | ![Captura 2](./src/assets/ScreenShots/2.png) | ![Captura 3](./src/assets/ScreenShots/3.png) |
+| -------------------------------------------- | -------------------------------------------- | -------------------------------------------- |
+| **Pantalla principal**                       | **Scroll de proyectos**                      | **Scroll de skills**                         |
 
 ## 🌟 Características
 
